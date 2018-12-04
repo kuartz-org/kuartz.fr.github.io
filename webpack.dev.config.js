@@ -15,7 +15,7 @@ module.exports = {
       __dirname + '/assets/stylesheets',
       __dirname + '/node_modules',
     ],
-    extensions: ['.js', '.css', '.scss']
+    extensions: ['.js', '.css', '.scss', '.sass']
   },
   module: {
     rules: [
