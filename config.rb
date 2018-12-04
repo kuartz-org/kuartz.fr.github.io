@@ -59,7 +59,7 @@ end
 # Push-it to the web
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.branch        = 'gh-pages'
+  deploy.branch        = 'master'
   deploy.build_before  = true # always use --no-clean options
 
   committer_app = "#{Middleman::Deploy::PACKAGE} v#{Middleman::Deploy::VERSION}"
