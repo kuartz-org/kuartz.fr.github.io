@@ -1,15 +1,11 @@
 site:
-  title: codeless
+  title: The Kuartz
   title_separator: •
-  description: 'Write less code, solve more problems'
-  i18n: en
-  geo:
-    placename: 'Lille, Nord'
-    position: 50.629250;3.057256
-    region: FR-59
-  url: 'https://github.com/flexbox/codeless'
+  description: 'Solve more problems'
+  i18n: fr
+  url: 'https://thekuartz.com'
   twitter_card_img: 'https://raw.githubusercontent.com/flexbox/codeless/master/source/favicon_base.png'
-  author: David Leuliette
+  author: Guillaume & Tim
 
 social:
-  twitter: '_flexbox'
+  twitter: 'thekuartz'
