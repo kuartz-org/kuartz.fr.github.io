@@ -2,3 +2,5 @@ node_modules
 .tmp
 build
 .sass-cache
+.sass-cache
+.tmp
