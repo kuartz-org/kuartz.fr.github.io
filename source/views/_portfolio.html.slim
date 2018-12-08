@@ -1,0 +1,21 @@
+.container
+  h2.title.is-2 Portfolio
+  .columns.is-multiline
+    - data.portfolio.each do |reference|
+      .column.is-one-third
+        .reference-card
+          .reference-image
+            .image
+              = image_tag reference.image_url
+          br
+          h3.title.is-3 = reference.name
+          p = reference.description
+          br
+          .columns.is-multiline
+            - reference.participants.each do |participant|
+              .column.is-one-quarter
+                .flexbox.flexbox-center
+                  .participant
+                    .image.is-64x64
+                      = image_tag participant.photo_url, class: 'is-rounded'
+                    .tag.is-light = participant.name

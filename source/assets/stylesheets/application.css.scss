@@ -2,4 +2,6 @@
 
 @import "config/index";
 @import "../../../node_modules/bulma/bulma.sass";
-@import "animations";
+@import "layouts";
+@import "utilities/index";
+@import "components/index";
