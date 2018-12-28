@@ -2,7 +2,7 @@
   name: Ensemble1Job
   client: Ensemble & Companie
   description: "Réalisation d'une plateforme pour réaliser des bilans de compétences communautaire."
-  image_url: https://res.cloudinary.com/thekuartz/image/upload/v1544285961/portfolio/Screenshot_2018-12-08_Ensemble1Job.png
+  image_url: v1544285961/portfolio/Screenshot_2018-12-08_Ensemble1Job.png
   participants:
     -
       name: Guillaume
@@ -18,27 +18,17 @@
   name: Transformation Volaille Mobile
   client: Valentin Poupart
   description: "Réalisation d'une plateforme de réservation pour abattoir de volailles mobile avec transferts sécurisés de documents réglementaires pour la DDPP."
-  image_url: https://res.cloudinary.com/thekuartz/image/upload/v1544285961/portfolio/Screenshot_2018-12-08_Transformation_de_volailles.png
+  image_url: v1544285961/portfolio/Screenshot_2018-12-08_Transformation_de_volailles.png
   participants:
     -
       name: Guillaume
       photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
  
 
-
-- name: GGR Talk
-  client: Antoine Cousot
-  description: "Réalisation d'une platforme pour permettre aux proches d'Antoine Cousot de communiquer avec lui via les radio-amateurs pendant la Golden Globe Race."
-  image_url: https://res.cloudinary.com/thekuartz/image/upload/v1544285961/portfolio/Screenshot_2018-12-08_G_G_R_Talk.png
-  participants:
-    -
-      name: Guillaume
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
-
 - name: ADEME Data Collection
   client: EP
   description: "Réalisation d'une plateforme pour rassembler l'ensemble des données chantiers des agences locales de l'ADEME dans une base de donnée exploitable."
-  image_url: https://res.cloudinary.com/thekuartz/image/upload/v1544288784/portfolio/Screenshot_2018-12-08_Les_co%C3%BBt_de_la_r%C3%A9novation.png
+  image_url: v1544288784/portfolio/Screenshot_2018-12-08_Les_co%C3%BBt_de_la_r%C3%A9novation.png
   participants:
     -
       name: Hugo
@@ -47,6 +37,23 @@
       name: Guillaume
       photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
     
+- name: Seazon DOJO
+  client: DOJO
+  description: "Réalisation d'une platforme pour permettre aux coworkers du Dojo de commander des plats Seazon."
+  image_url: v1546019729/portfolio/Screenshot_2018-12-28_Seazon_Dojo.png
+  participants:
+    -
+      name: Guillaume
+      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
+    
+- name: GGR Talk
+  client: Antoine Cousot
+  description: "Réalisation d'une platforme pour permettre aux proches d'Antoine Cousot de communiquer avec lui via les radio-amateurs pendant la Golden Globe Race."
+  image_url: v1544285961/portfolio/Screenshot_2018-12-08_G_G_R_Talk.png
+  participants:
+    -
+      name: Guillaume
+      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
 
 # - name:
 #   client:

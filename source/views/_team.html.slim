@@ -1,0 +1,15 @@
+section.section.has-background-primary
+  .container
+    h2.title.is-2.has-text-white.has-text-centered L'équipe
+    .kuartz-underline-title-inverted
+    .columns
+      - data.team.each do |member|
+          .column
+            .member
+              .image.is-128x128
+                = image_tag member.photo_url, class: 'is-rounded'
+              .member-details
+                h4.title.is-4.has-text-white = member.name
+                p.subtitle.has-text-grey-lighter Développeur Full Stack
+                
+                = link_to member.email, "mailto:#{member.email}"
