@@ -3,6 +3,10 @@
   client: Ensemble & Companie
   description: "Réalisation d'une plateforme pour réaliser des bilans de compétences communautaire."
   image_url: v1544285961/portfolio/Screenshot_2018-12-08_Ensemble1Job.png
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
   participants:
     -
       name: Guillaume
@@ -19,6 +23,10 @@
   client: Valentin Poupart
   description: "Réalisation d'une plateforme de réservation pour abattoir de volailles mobile avec transferts sécurisés de documents réglementaires pour la DDPP."
   image_url: v1544285961/portfolio/Screenshot_2018-12-08_Transformation_de_volailles.png
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
   participants:
     -
       name: Guillaume
@@ -29,6 +37,10 @@
   client: EP
   description: "Réalisation d'une plateforme pour rassembler l'ensemble des données chantiers des agences locales de l'ADEME dans une base de donnée exploitable."
   image_url: v1544288784/portfolio/Screenshot_2018-12-08_Les_co%C3%BBt_de_la_r%C3%A9novation.png
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
   participants:
     -
       name: Hugo
@@ -41,6 +53,10 @@
   client: DOJO
   description: "Réalisation d'une platforme pour permettre aux coworkers du Dojo de commander des plats Seazon."
   image_url: v1546019729/portfolio/Screenshot_2018-12-28_Seazon_Dojo.png
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
   participants:
     -
       name: Guillaume
@@ -50,10 +66,63 @@
   client: Antoine Cousot
   description: "Réalisation d'une platforme pour permettre aux proches d'Antoine Cousot de communiquer avec lui via les radio-amateurs pendant la Golden Globe Race."
   image_url: v1544285961/portfolio/Screenshot_2018-12-08_G_G_R_Talk.png
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
   participants:
     -
       name: Guillaume
       photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
+
+- name: ISC Explorer
+  client: Société Générale
+  description: "Réalisation d'une app web pour permettre aux collaborateurs et aux managers de la Société Générale de consulter et d'analyser l'ensemble des données générées par les startups dévéloppées lors d'un programme intrepreneurial organisé dans l'ensemble du groupe Société Générale."
+  image_url: https://placehold.it/800x600
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
+  url:
+
+- name: The Krowd
+  client: Technip FMC
+  description: "Réalisation d'un tableau de bord gamifié pour permettre aux managers de Technip FMC d'analyser les interactions des participants et d'interagir avec eux pour dynamiser le challenge d'innovation organisé sur le réseau social d'entreprise (Yammer) du groupe."
+  image_url: https://placehold.it/800x600
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
+    # -
+    #   name: Google Charts
+    #   logo: 
+  url:
+
+- name: Scraping de coordonnées de chercheurs de Paris Science et Lettres
+  client: PSL
+  description: "Collecte des coordonnées de l'ensemble des chercheurs de Paris Sciences et Lettres (PSL) - groupement de neuf grandes écoles - automatiquement depuis les sites internet des différentes écoles grâce à plusieurs algorithmes de scraping.  La constitution de cette mailing list commune a été un élément clé pour promouvoir le projet Second Life permettant à des profils expérimentés de s'associer à des chercheurs pour créer des startups technologiques."
+  image_url: https://placehold.it/800x600
+  url:
+  stack:
+    -
+      name: Python
+      logo: python-logo.svg
+
+- name: Dossards
+  client: SFR
+  description: "Réalisation d'une app web pour la diffusion sur la page facebook de SFR Réunion du passage aux différents checkpoints de 20 coureurs élites lors du Grand Raid 2018 de la Réunion. Création d'un chatbot messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints."
+  image_url: https://placehold.it/800x600
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
+  url:
+
+# Ils nous font confiance
+# Société Générale
+# Crédit Mutuel
+# Technip FMC
+# SFR
 
 # - name:
 #   client:
