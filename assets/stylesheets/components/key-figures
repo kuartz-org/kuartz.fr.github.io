@@ -1,0 +1,8 @@
+#key-figures-section .column {
+  margin: auto;
+  text-align: center; }
+  #key-figures-section .column .fa-icon {
+    display: block;
+    font-size: 48px; }
+  #key-figures-section .column .key-figure {
+    font-size: 32px; }
