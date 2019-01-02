@@ -3,4 +3,91 @@
   padding: 16px;
   box-shadow:  0 2px 3px rgba(hsl(0, 0%, 4%), 0.1), 0 0 0 1px rgba(hsl(0, 0%, 4%), 0.1) ;
   border-radius: 2px;
+
+  .portfolio-image{
+    cursor: pointer;
+  }
+}
+
+.portfolio-modal-container{
+  z-index: 1000;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  display: none; align-items: center; justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  .portfolio-modal{
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    padding: 54px;
+    background-color: $primary;
+    border-radius: 8px;
+    
+    .modal-title{
+      text-align: center;
+    }
+
+    .modal-description{
+      text-align: center;
+    }
+
+    .image{
+      margin: auto;
+      display: flex; align-items: center; justify-content: center; 
+
+      img{
+        display: block;
+        max-width: calc(90vw - 2 * 54px);
+        max-height: calc(90vh - 2 * 54px);
+        width: auto; height: auto;
+        border-radius: 8px;
+      }
+    }
+
+    .modal-btn-container{
+      position: absolute;
+    }
+    
+    .modal-btn{
+      z-index: 5;
+      cursor: pointer;
+      color: $blue;
+      font-size: 32px;
+      
+      &:hover{
+        color: white;
+      }
+    }
+
+    .close-btn-container{
+      top: 16px; right: 16px;
+      width: 22px; height: 32px;
+      display: flex; align-items: flex-start; justify-content: flex-end;
+      
+      .close-btn{
+        z-index: 10;
+      }
+
+      i{
+        margin-top: -4px;
+        display: block;
+      }
+    }
+
+    .previous-btn-container, .next-btn-container{
+      top: 0;
+      height: 100%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    
+    .previous-btn-container{
+      left: 19px;
+    }
+
+    .next-btn-container{
+      right: 19px;
+    }
+  }
 }

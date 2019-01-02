@@ -13,6 +13,24 @@
             .column.is-6
               h3.title.is-3.has-text-grey-lighter = reference.name
               h4.title.is-4.has-text-grey-light = reference.client
+            
+            .portfolio-modal-container
+              .portfolio-modal
+                .close-btn-container.modal-btn-container
+                  .close-btn.modal-btn
+                    i.fas.fa-times
+                .next-btn-container.modal-btn-container
+                  .next-btn.modal-btn
+                    i.fas.fa-angle-right
+                .previous-btn-container.modal-btn-container
+                  .previous-btn.modal-btn
+                    i.fas.fa-angle-left
+
+                .h2.modal-title = reference.name
+                .image
+                  = image_tag "https://res.cloudinary.com/thekuartz/image/upload/#{reference.image_url}"
+                .modal-description = reference.description
+                
               / .columns.is-multiline
               /   - reference.stack.each do |techno|
               /     .column.is-4.has-text-centered
