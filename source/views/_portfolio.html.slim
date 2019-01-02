@@ -2,21 +2,20 @@
   .container
     h2.title.is-2.has-text-white.has-text-centered Nos projets
     .kuartz-underline-title
-    - data.portfolio.each do |reference|
-      .columns
-        .column.is-1
+    .columns.is-multiline
+      - data.portfolio.each do |reference|
         .column.is-6
-          .reference-card.has-background-light
-            .image.is-3by2
-              = image_tag "https://res.cloudinary.com/thekuartz/image/upload/c_pad,ar_3:2/#{reference.image_url}"
-        .column.is-4
-          h3.title.is-3.has-text-white = reference.name
-          p.subtitle.has-text-white = reference.description
-          br
-          .columns.is-multiline
-            - reference.participants.each do |participant|
-              .column.is-3.has-text-centered
-                .flexbox.flexbox-center
-                  figure.image.is-64x64.is-centered
-                    = image_tag participant.photo_url, class: 'is-rounded'
-                .tag.is-light = participant.name
+          .columns
+            .column.is-6
+              .reference-card.has-background-light
+                .image.is-3by2
+                  = image_tag "https://res.cloudinary.com/thekuartz/image/upload/c_pad,ar_3:2/portfolio/#{reference.image_url}"
+            .column.is-6
+              h3.title.is-3.has-text-grey-lighter = reference.name
+              h4.title.is-4.has-text-grey-light = reference.client
+              / .columns.is-multiline
+              /   - reference.stack.each do |techno|
+              /     .column.is-4.has-text-centered
+              /       .flexbox.flexbox-center
+              /         figure.image.is-64x64.is-centered
+              /           = image_tag "logos/#{techno.logo}", alt: techno.name, title: techno.name
