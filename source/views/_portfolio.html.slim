@@ -7,8 +7,9 @@
         .column.is-1
         .column.is-6
           .reference-card.has-background-light
-            .image.is-3by2
+            .image.is-3by2.portfolio-image
               = image_tag "https://res.cloudinary.com/thekuartz/image/upload/c_pad,ar_3:2/#{reference.image_url}"
+          
         .column.is-4
           h3.title.is-3.has-text-white = reference.name
           p.subtitle.has-text-white = reference.description
@@ -20,3 +21,20 @@
                   figure.image.is-64x64.is-centered
                     = image_tag participant.photo_url, class: 'is-rounded'
                 .tag.is-light = participant.name
+      
+        .portfolio-modal-container
+          .portfolio-modal
+            .close-btn-container.modal-btn-container
+              .close-btn.modal-btn
+                i.fas.fa-times
+            .next-btn-container.modal-btn-container
+              .next-btn.modal-btn
+                i.fas.fa-angle-right
+            .previous-btn-container.modal-btn-container
+              .previous-btn.modal-btn
+                i.fas.fa-angle-left
+
+            .h2.modal-title = reference.name
+            .image
+              = image_tag "https://res.cloudinary.com/thekuartz/image/upload/#{reference.image_url}"
+            .modal-description = reference.description
