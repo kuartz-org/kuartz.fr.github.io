@@ -1,0 +1,2228 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "/Users/timotheegarcia/Google Drive/code/thekuartz.github.io",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2018-12-29 00:00:21",
+            "filesum": 162,
+            "codesum": 5001,
+            "commentsum": 288,
+            "blanksum": 951,
+            "filelist": [
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": ".editorconfig"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": ".github/issue_template.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": ".sass-cache/00822fc1461cf18f8468af2a9466e7130b5620ad/bulma.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ecf06ba4ce71ac6f9473634c51401f6b1a11593/_layouts.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ecf06ba4ce71ac6f9473634c51401f6b1a11593/application.css.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/animations.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/controls.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/derived-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/functions.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/initial-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/mixins.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/box.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/button.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/container.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/content.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/form.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/icon.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/image.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/notification.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/other.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/progress.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/table.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/tag.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/title.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/511e15611e2304620c71f9bacc7e34cc19a319c2/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/511e15611e2304620c71f9bacc7e34cc19a319c2/columns.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/511e15611e2304620c71f9bacc7e34cc19a319c2/tiles.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/animations.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/controls.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/derived-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/functions.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/initial-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/mixins.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/box.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/button.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/container.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/content.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/form.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/icon.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/image.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/notification.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/other.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/progress.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/table.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/tag.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/title.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/footer.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/hero.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/section.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/7645bdd50edd4e0c1302c01651f8e40380e18a64/_animations.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/7645bdd50edd4e0c1302c01651f8e40380e18a64/_flexboxes.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/7645bdd50edd4e0c1302c01651f8e40380e18a64/index.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/generic.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/helpers.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/minireset.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/94948aabd24d00113cda31e1aae2d908d2bd2643/bulma.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/generic.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/helpers.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/minireset.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/aac8a1f662efef9ebabbc61f5b46805fd22a7eb2/_colors.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/aac8a1f662efef9ebabbc61f5b46805fd22a7eb2/_typography.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/aac8a1f662efef9ebabbc61f5b46805fd22a7eb2/index.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/breadcrumb.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/card.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/dropdown.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/level.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/list.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/media.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/menu.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/message.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/modal.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/navbar.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/pagination.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/panel.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/tabs.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/footer.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/hero.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/section.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_animated.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_bordered-pulled.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_core.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_fixed-width.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_icons.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_larger.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_list.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_mixins.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_rotated-flipped.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_screen-reader.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_stacked.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_variables.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/fontawesome.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/solid.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/breadcrumb.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/card.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/dropdown.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/level.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/list.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/media.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/menu.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/message.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/modal.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/navbar.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/pagination.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/panel.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/tabs.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d579b7f93b0db27bf0bf25013cedf2c58016a640/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d579b7f93b0db27bf0bf25013cedf2c58016a640/columns.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d579b7f93b0db27bf0bf25013cedf2c58016a640/tiles.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/f82aaf45377a753cd4c1308f93bb1e1a4bfce968/_members.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/f82aaf45377a753cd4c1308f93bb1e1a4bfce968/_reference-cards.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/f82aaf45377a753cd4c1308f93bb1e1a4bfce968/index.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 49,
+                    "code": 120,
+                    "comment": 137,
+                    "filename": ".tmp/dist/javascripts/all.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 54,
+                    "comment": 4,
+                    "filename": "config.rb"
+                },
+                {
+                    "blank": 6,
+                    "code": 63,
+                    "comment": 8,
+                    "filename": "data/portfolio.yml"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "data/settings.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 2,
+                    "filename": "data/team.yml"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": "Gemfile"
+                },
+                {
+                    "blank": 5,
+                    "code": 166,
+                    "comment": 3,
+                    "filename": "Gemfile.lock"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "helpers/meta_tags_helper.rb"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "helpers/svg_helper.rb"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "helpers/urls_helper.rb"
+                },
+                {
+                    "blank": 15,
+                    "code": 38,
+                    "comment": 37,
+                    "filename": "lib/svg.rb"
+                },
+                {
+                    "blank": 33,
+                    "code": 147,
+                    "comment": 1,
+                    "filename": "LICENSE"
+                },
+                {
+                    "blank": 2,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 15,
+                    "code": 30,
+                    "comment": 12,
+                    "filename": "README.md"
+                },
+                {
+                    "filename": "source/assets/images/codeless-middleman.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "source/assets/images/logos/favicon_base.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "source/assets/images/svg/.gitkeep"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "source/assets/javascripts/application.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/_layouts.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/application.css.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/components/_members.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/components/_reference-cards.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/components/index.scss"
+                },
+                {
+                    "blank": 22,
+                    "code": 2,
+                    "comment": 65,
+                    "filename": "source/assets/stylesheets/config/_colors.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 2,
+                    "comment": 14,
+                    "filename": "source/assets/stylesheets/config/_typography.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/config/index.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/utilities/_animations.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/utilities/_flexboxes.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/utilities/index.scss"
+                },
+                {
+                    "filename": "source/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "source/index.html.slim"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "source/layouts/commons/_favicon.html.slim"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "source/layouts/commons/_meta_tags.html.slim"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "source/layouts/layout.html.slim"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "source/views/_key_figures.html.slim"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "source/views/_portfolio.html.slim"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "source/views/_team.html.slim"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "webpack.dev.config.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "webpack.prod.config.js"
+                },
+                {
+                    "blank": 739,
+                    "code": 3922,
+                    "comment": 0,
+                    "filename": "yarn.lock"
+                }
+            ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2019-01-02 10:45:46",
+            "filesum": 164,
+            "codesum": 4958,
+            "commentsum": 222,
+            "blanksum": 911,
+            "filelist": [
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": ".editorconfig"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": ".github/issue_template.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": ".sass-cache/00822fc1461cf18f8468af2a9466e7130b5620ad/bulma.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ecf06ba4ce71ac6f9473634c51401f6b1a11593/_layouts.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ecf06ba4ce71ac6f9473634c51401f6b1a11593/application.css.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/animations.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/controls.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/derived-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/functions.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/initial-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/2389f6c5c10f0e7ea8135f6439e6d41e5dd64107/mixins.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/box.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/button.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/container.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/content.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/form.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/icon.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/image.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/notification.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/other.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/progress.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/table.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/tag.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/3508165843382241225d950fb02c95245dad155e/title.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/511e15611e2304620c71f9bacc7e34cc19a319c2/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/511e15611e2304620c71f9bacc7e34cc19a319c2/columns.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/511e15611e2304620c71f9bacc7e34cc19a319c2/tiles.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/animations.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/controls.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/derived-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/functions.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/initial-variables.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/523955304e85cd454ddb27ebe9484ee07acb7b0d/mixins.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/box.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/button.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/container.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/content.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/form.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/icon.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/image.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/notification.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/other.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/progress.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/table.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/tag.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/54a7e6fe39599d7286837c9a9926381c91e7251f/title.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/footer.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/hero.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/6baf7bcc2c1186e4852e9577a55fcabfb679689f/section.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/7645bdd50edd4e0c1302c01651f8e40380e18a64/_animations.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/7645bdd50edd4e0c1302c01651f8e40380e18a64/_flexboxes.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/7645bdd50edd4e0c1302c01651f8e40380e18a64/index.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/generic.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/helpers.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/90c88ca4a6deea16c7e242ec0a28411ac4cad700/minireset.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/94948aabd24d00113cda31e1aae2d908d2bd2643/bulma.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/generic.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/helpers.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/97d5a32605cd12f9958bfd9a5cee4fde3d770451/minireset.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/aac8a1f662efef9ebabbc61f5b46805fd22a7eb2/_colors.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/aac8a1f662efef9ebabbc61f5b46805fd22a7eb2/_typography.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/aac8a1f662efef9ebabbc61f5b46805fd22a7eb2/index.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/breadcrumb.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/card.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/dropdown.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/level.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/list.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/media.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/menu.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/message.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/modal.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/navbar.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/pagination.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/panel.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/ab06ea1c96a493effbeed781c0c251e5191beb85/tabs.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/footer.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/hero.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/bb44d3e47305675917006e58365e7b8da0149682/section.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_animated.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_bordered-pulled.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_core.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_fixed-width.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_icons.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_larger.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_list.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_mixins.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_rotated-flipped.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_screen-reader.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_stacked.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/_variables.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/fontawesome.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/cb30eac46a6d5e85b04ea79e5ed851d99e6e65f5/solid.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/breadcrumb.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/card.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/dropdown.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/level.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/list.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/media.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/menu.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/message.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/modal.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/navbar.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/pagination.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/panel.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d3a685ae16710e2b8755dc4c1e0326aa6d3ea760/tabs.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d579b7f93b0db27bf0bf25013cedf2c58016a640/_all.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d579b7f93b0db27bf0bf25013cedf2c58016a640/columns.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/d579b7f93b0db27bf0bf25013cedf2c58016a640/tiles.sassc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/f82aaf45377a753cd4c1308f93bb1e1a4bfce968/_members.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/f82aaf45377a753cd4c1308f93bb1e1a4bfce968/_reference-cards.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/f82aaf45377a753cd4c1308f93bb1e1a4bfce968/index.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/f82aaf45377a753cd4c1308f93bb1e1a4bfce968/key-figures.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 54,
+                    "comment": 71,
+                    "filename": ".tmp/dist/javascripts/all.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 54,
+                    "comment": 4,
+                    "filename": "config.rb"
+                },
+                {
+                    "blank": 6,
+                    "code": 63,
+                    "comment": 8,
+                    "filename": "data/portfolio.yml"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "data/settings.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 2,
+                    "filename": "data/team.yml"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": "Gemfile"
+                },
+                {
+                    "blank": 5,
+                    "code": 166,
+                    "comment": 3,
+                    "filename": "Gemfile.lock"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "helpers/meta_tags_helper.rb"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "helpers/svg_helper.rb"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "helpers/urls_helper.rb"
+                },
+                {
+                    "blank": 15,
+                    "code": 38,
+                    "comment": 37,
+                    "filename": "lib/svg.rb"
+                },
+                {
+                    "blank": 33,
+                    "code": 147,
+                    "comment": 1,
+                    "filename": "LICENSE"
+                },
+                {
+                    "blank": 2,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 15,
+                    "code": 30,
+                    "comment": 12,
+                    "filename": "README.md"
+                },
+                {
+                    "filename": "source/assets/images/codeless-middleman.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "source/assets/images/logos/favicon_base.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "source/assets/images/svg/.gitkeep"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "source/assets/javascripts/application.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/_layouts.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/application.css.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/components/_members.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/components/_reference-cards.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/components/index.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/components/key-figures.scss"
+                },
+                {
+                    "blank": 22,
+                    "code": 2,
+                    "comment": 65,
+                    "filename": "source/assets/stylesheets/config/_colors.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 2,
+                    "comment": 14,
+                    "filename": "source/assets/stylesheets/config/_typography.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/config/index.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/utilities/_animations.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/utilities/_flexboxes.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "source/assets/stylesheets/utilities/index.scss"
+                },
+                {
+                    "filename": "source/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "source/index.html.slim"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "source/layouts/commons/_favicon.html.slim"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "source/layouts/commons/_meta_tags.html.slim"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "source/layouts/layout.html.slim"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "source/views/_key_figures.html.slim"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "source/views/_portfolio.html.slim"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "source/views/_team.html.slim"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "webpack.dev.config.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "webpack.prod.config.js"
+                },
+                {
+                    "blank": 738,
+                    "code": 3919,
+                    "comment": 0,
+                    "filename": "yarn.lock"
+                }
+            ]
+        }
+    ]
+}
