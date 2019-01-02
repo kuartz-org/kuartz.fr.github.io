@@ -5,7 +5,7 @@
     - data.portfolio.each do |reference|
       .columns
         .column.is-1
-        .column.is-5
+        .column.is-6
           .reference-card.has-background-light
             .image.is-3by2
               = image_tag "https://res.cloudinary.com/thekuartz/image/upload/c_pad,ar_3:2/#{reference.image_url}"
@@ -15,9 +15,8 @@
           br
           .columns.is-multiline
             - reference.participants.each do |participant|
-              .column.is-one-quarter
+              .column.is-3.has-text-centered
                 .flexbox.flexbox-center
-                  .participant
-                    .image.is-64x64
-                      = image_tag participant.photo_url, class: 'is-rounded'
-                    .tag.is-light = participant.name
+                  figure.image.is-64x64.is-centered
+                    = image_tag participant.photo_url, class: 'is-rounded'
+                .tag.is-light = participant.name
