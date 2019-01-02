@@ -2,7 +2,7 @@
   name: ISC Explorer
   client: Société Générale
   description: "Réalisation d'une plateforme web pour permettre aux collaborateurs et aux managers de la Société Générale de consulter et d'analyser l'ensemble des données générées par les startups dévéloppées lors d'un programme intrepreneurial organisé dans l'ensemble du groupe Société Générale."
-  image_url: 
+  image_url: isc-explorer.png
   stack:
     -
       name: Ruby on Rails
@@ -13,7 +13,7 @@
   name: Live du Grand Raid de la Réunion 2018
   client: SFR
   description: "Réalisation d'une plateforme web pour la diffusion sur la page facebook de SFR Réunion du passage aux différents checkpoints de 20 coureurs élites lors du Grand Raid 2018 de la Réunion. Création d'un chatbot messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints."
-  image_url: 
+  image_url: grand-raid-reunion-2018.png
   stack:
     -
       name: Ruby on Rails
@@ -44,7 +44,7 @@
   name: Collecte automatisée de coordonnées de chercheurs
   client: Paris Science et Lettres
   description: "Collecte des coordonnées de l'ensemble des chercheurs de Paris Sciences et Lettres (PSL) - groupement de neuf grandes écoles - automatiquement depuis les sites internet des différentes écoles grâce à plusieurs algorithmes de scraping.  La constitution de cette mailing list commune a été un élément clé pour promouvoir le projet Second Life permettant à des profils expérimentés de s'associer à des chercheurs pour créer des startups technologiques."
-  image_url: 
+  image_url: psl.png
   url:
   stack:
     -
@@ -85,7 +85,7 @@
   name: The Krowd
   client: Technip FMC
   description: "Réalisation d'un tableau de bord gamifié pour permettre aux managers de Technip FMC d'analyser les interactions des participants et d'interagir avec eux pour dynamiser le challenge d'innovation organisé sur le réseau social d'entreprise (Yammer) du groupe."
-  image_url: 
+  image_url: krowd.png
   stack:
     -
       name: Ruby on Rails
