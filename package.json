@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "bulma": "^0.7.2"
+    "bulma": "^0.7.2",
+    "jslint": "^0.12.0"
   }
 }
