@@ -1,7 +1,7 @@
-#team-section.section.section.has-background-primary
+#team-section.section.section.has-background-blue
   .container
     h2.title.is-2.has-text-white.has-text-centered L'équipe
-    .kuartz-underline-title-inverted
+    .kuartz-underline-title
     .columns
       - data.team.each do |member|
           .column
@@ -10,6 +10,11 @@
                 = image_tag member.photo_url, class: 'is-rounded'
               .member-details
                 h4.title.is-4.has-text-white = member.name
-                p.subtitle.has-text-grey-lighter Développeur Full Stack
+                - member.jobs.each do |job|
+                  .is-size-5.has-text-grey-light = job
                 
-                = link_to member.email, "mailto:#{member.email}"
+                = link_to member.email, "mailto:#{member.email}", class: 'button is-text is-link is-paddingless'
+    .columns
+      .column.is-5
+      .column.is-2
+        = link_to "Contactez-nous", 'mailto:contact@thekuartz.com', class: 'button is-primary is-large is-fullwidth'

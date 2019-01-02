@@ -1,69 +1,102 @@
 -
+  name: ISC Explorer
+  client: Société Générale
+  description: "Réalisation d'une plateforme web pour permettre aux collaborateurs et aux managers de la Société Générale de consulter et d'analyser l'ensemble des données générées par les startups dévéloppées lors d'un programme intrepreneurial organisé dans l'ensemble du groupe Société Générale."
+  image_url: 
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
+  url:
+
+-
+  name: Live du Grand Raid de la Réunion 2018
+  client: SFR
+  description: "Réalisation d'une plateforme web pour la diffusion sur la page facebook de SFR Réunion du passage aux différents checkpoints de 20 coureurs élites lors du Grand Raid 2018 de la Réunion. Création d'un chatbot messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints."
+  image_url: 
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
+  url:
+
+-
+  name: ADEME Data Collection
+  client: EP
+  description: "Réalisation d'une plateforme web pour rassembler l'ensemble des données chantiers des agences locales de l'ADEME dans une base de donnée exploitable."
+  image_url: Screenshot_2018-12-08_Les_co%C3%BBt_de_la_r%C3%A9novation.png
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
+
+-
   name: Ensemble1Job
   client: Ensemble & Companie
-  description: "Réalisation d'une plateforme pour réaliser des bilans de compétences communautaire."
-  image_url: v1544285961/portfolio/Screenshot_2018-12-08_Ensemble1Job.png
-  participants:
+  description: "Réalisation d'une plateforme web pour réaliser des bilans de compétences communautaire."
+  image_url: Screenshot_2018-12-08_Ensemble1Job.png
+  stack:
     -
-      name: Guillaume
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
+      name: Ruby on Rails
+      logo: rails-logo.svg
+
+-
+  name: Collecte automatisée de coordonnées de chercheurs
+  client: Paris Science et Lettres
+  description: "Collecte des coordonnées de l'ensemble des chercheurs de Paris Sciences et Lettres (PSL) - groupement de neuf grandes écoles - automatiquement depuis les sites internet des différentes écoles grâce à plusieurs algorithmes de scraping.  La constitution de cette mailing list commune a été un élément clé pour promouvoir le projet Second Life permettant à des profils expérimentés de s'associer à des chercheurs pour créer des startups technologiques."
+  image_url: 
+  url:
+  stack:
     -
-      name: Hugo
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544287069/team/hugo.jpg
-    - 
-      name: Clarisse
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286974/team/clarisse.jpg
+      name: Python
+      logo: python-logo.svg
 
 -
   name: Transformation Volaille Mobile
   client: Valentin Poupart
-  description: "Réalisation d'une plateforme de réservation pour abattoir de volailles mobile avec transferts sécurisés de documents réglementaires pour la DDPP."
-  image_url: v1544285961/portfolio/Screenshot_2018-12-08_Transformation_de_volailles.png
-  participants:
+  description: "Réalisation d'une plateforme web de réservation pour abattoir de volailles mobile avec transferts sécurisés de documents réglementaires pour la DDPP."
+  image_url: Screenshot_2018-12-08_Transformation_de_volailles.png
+  stack:
     -
-      name: Guillaume
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
- 
+      name: Ruby on Rails
+      logo: rails-logo.svg
 
-- name: ADEME Data Collection
-  client: EP
-  description: "Réalisation d'une plateforme pour rassembler l'ensemble des données chantiers des agences locales de l'ADEME dans une base de donnée exploitable."
-  image_url: v1544288784/portfolio/Screenshot_2018-12-08_Les_co%C3%BBt_de_la_r%C3%A9novation.png
-  participants:
-    -
-      name: Hugo
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544287069/team/hugo.jpg
-    -
-      name: Guillaume
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
-    
-- name: Seazon DOJO
+-
+  name: Seazon DOJO
   client: DOJO
-  description: "Réalisation d'une platforme pour permettre aux coworkers du Dojo de commander des plats Seazon."
-  image_url: v1546019729/portfolio/Screenshot_2018-12-28_Seazon_Dojo.png
-  participants:
+  description: "Réalisation d'une platforme web pour permettre aux coworkers du Dojo de commander des plats Seazon."
+  image_url: Screenshot_2018-12-28_Seazon_Dojo.png
+  stack:
     -
-      name: Guillaume
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
+      name: Ruby on Rails
+      logo: rails-logo.svg
     
-- name: GGR Talk
+-
+  name: GGR Talk
   client: Antoine Cousot
-  description: "Réalisation d'une platforme pour permettre aux proches d'Antoine Cousot de communiquer avec lui via les radio-amateurs pendant la Golden Globe Race."
-  image_url: v1544285961/portfolio/Screenshot_2018-12-08_G_G_R_Talk.png
-  participants:
+  description: "Réalisation d'une platforme web pour permettre aux proches d'Antoine Cousot de communiquer avec lui via les radio-amateurs pendant la Golden Globe Race."
+  image_url: Screenshot_2018-12-08_G_G_R_Talk.png
+  stack:
     -
-      name: Guillaume
-      photo_url: https://res.cloudinary.com/thekuartz/image/upload/v1544286307/team/guillaume.jpg
+      name: Ruby on Rails
+      logo: rails-logo.svg
+
+-
+  name: The Krowd
+  client: Technip FMC
+  description: "Réalisation d'un tableau de bord gamifié pour permettre aux managers de Technip FMC d'analyser les interactions des participants et d'interagir avec eux pour dynamiser le challenge d'innovation organisé sur le réseau social d'entreprise (Yammer) du groupe."
+  image_url: 
+  stack:
+    -
+      name: Ruby on Rails
+      logo: rails-logo.svg
+    # -
+    #   name: Google Charts
+    #   logo: 
+  url:
 
 # - name:
 #   client:
 #   description:
 #   image_url:
 #   url:
-#   participants:
-#     -
-#       name: 
-#       photo_url:
-#     -
-#       name: 
-#       photo_url:
