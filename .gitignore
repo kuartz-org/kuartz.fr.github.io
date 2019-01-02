@@ -2,3 +2,4 @@ node_modules
 .tmp
 build
 .sass-cache/*
+.tmp/dist/javascripts/all.js
