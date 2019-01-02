@@ -32,7 +32,7 @@
                     .image
                       = image_tag "https://res.cloudinary.com/thekuartz/image/upload/portfolio/#{reference.image_url}"
                   .column.is-one-third
-                    .modal-description = reference.description
+                    p.modal-description.is-size-5 = reference.description
                 
               / .columns.is-multiline
               /   - reference.stack.each do |techno|
