@@ -1,5 +1,5 @@
 node_modules
-.tmp/*
+.tmp
 build
 .sass-cache/*
 .tmp/dist/javascripts/all.js
