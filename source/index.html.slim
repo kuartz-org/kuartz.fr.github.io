@@ -1,17 +1,15 @@
 ---
 title: Homepage
-description: 'Write less code, solve more problems'
-twitter_card_img: ''
+description: 'Web development'
+twitter_card_img: 'https://raw.githubusercontent.com/thekuartz/logo/master/favicon_base.png'
 ---
 
 
 .hero.is-light.is-large.section-page
   .hero-body
     .container
-      h1.title.is-1.has-text-centered.tracking-in-expand
-        span.has-text-primary K
-        | uartz
-        span.has-text-primary .
+      #main-logo
+        = image_tag 'logo-kuartz.png'
 
 = partial 'views/portfolio'
 = partial 'views/clients'

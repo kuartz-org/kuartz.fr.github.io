@@ -1,10 +1,10 @@
 site:
-  title: The Kuartz
+  title: Kuartz
   title_separator: •
-  description: 'Solve more problems'
+  description: 'Web development'
   i18n: fr
   url: 'https://thekuartz.com'
-  twitter_card_img: 'https://raw.githubusercontent.com/flexbox/codeless/master/source/favicon_base.png'
+  twitter_card_img: 'https://raw.githubusercontent.com/thekuartz/logo/master/favicon_base.png'
   author: Guillaume & Tim
 
 social:

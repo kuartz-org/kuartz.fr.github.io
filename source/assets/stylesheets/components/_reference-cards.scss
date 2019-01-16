@@ -30,7 +30,7 @@
     width: 90vw;
     height: 90vh;
     padding: 24px 54px 54px;
-    background-color: $primary;
+    background-color: $blue;
     border-radius: 16px;
     box-sizing: border-box;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
@@ -76,7 +76,7 @@
     .modal-btn{
       z-index: 5;
       cursor: pointer;
-      color: $blue;
+      color: $white;
       font-size: 32px;
       
       &:hover{
