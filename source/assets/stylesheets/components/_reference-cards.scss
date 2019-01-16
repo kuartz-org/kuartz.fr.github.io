@@ -1,12 +1,20 @@
 .reference-card {
   margin-bottom: 16px;
-  padding: 16px;
   box-shadow:  0 2px 3px rgba(hsl(0, 0%, 4%), 0.1), 0 0 0 1px rgba(hsl(0, 0%, 4%), 0.1) ;
-  border-radius: 2px;
+  border-radius: 8px;
+  overflow: hidden;
 
   .portfolio-image{
     cursor: pointer;
   }
+}
+
+.reference-card-title{
+  font-size: 24px !important;
+}
+
+.reference-card-description{
+  font-size: 20px !important;
 }
 
 .portfolio-modal-container{
