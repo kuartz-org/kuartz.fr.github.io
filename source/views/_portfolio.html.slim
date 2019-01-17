@@ -1,4 +1,4 @@
-#portfolio-section.section.section.has-background-blue
+section#portfolio-section.section.section.has-background-blue
   .container
     h2.title.is-2.has-text-white.has-text-centered Nos projets
     .kuartz-underline-title
@@ -8,11 +8,11 @@
           .columns
             .column.is-6
               .reference-card.has-background-black
-                .image.is-3by2.portfolio-image
-                  = image_tag "https://res.cloudinary.com/thekuartz/image/upload/c_pad,ar_3:2/portfolio/#{reference.image_url}"
+                .image.is-3by2.portfolio-image style="background-image: url('https://res.cloudinary.com/thekuartz/image/upload/portfolio/#{reference.image_url}'); background-repeat: no-repeat; background-size: 100% 100%; background-position: top;"
+                  / = image_tag "https://res.cloudinary.com/thekuartz/image/upload/c_pad,ar_3:2/portfolio/#{reference.image_url}"
             .column.is-6
-              h3.title.is-3.has-text-grey-lighter = reference.name
-              h4.title.is-4.has-text-grey-light = reference.client
+              h3.title.is-3.has-text-grey-lighter.reference-card-title = reference.name
+              h4.title.is-4.has-text-grey-light.reference-card-description = reference.client
             
             .portfolio-modal-container
               .portfolio-modal
