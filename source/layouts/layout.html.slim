@@ -13,7 +13,8 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
     
     = yield_content :head
 
-  body class="#{page_classes}"
+  body.has-navbar-fixed-top class="#{page_classes}"
+    = partial 'layouts/commons/navbar' 
 
     == yield
 
