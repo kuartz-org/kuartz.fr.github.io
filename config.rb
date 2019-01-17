@@ -8,7 +8,7 @@ set :js_dir,     'assets/javascripts'
 
 activate :external_pipeline,
   name: :webpack,
-  command: build? ? "npm run build:assets" : "npm run start:assets",
+  command: build? ? 'yarn run build' : 'yarn run start',
   source: ".tmp/dist",
   latency: 1
 
@@ -67,5 +67,3 @@ activate :deploy do |deploy|
 
   deploy.commit_message = commit_message
 end
-
-
