@@ -1,3 +1,8 @@
+import smoothscroll from 'smoothscroll-polyfill';
+
+// kick off the polyfill!
+smoothscroll.polyfill();
+
 const navbar       = document.querySelector('.navbar')
 const navbarHeight = navbar.offsetHeight
 const navbarItems  = navbar.querySelectorAll('.navbar-menu .navbar-item')
@@ -6,7 +11,8 @@ navbarItems.forEach(item => {
   item.addEventListener('click', event => {
     event.preventDefault()
     const section = document.querySelector(item.getAttribute('href'))
-    window.scroll(0, section.offsetTop - navbar.offsetHeight)
+    window.scroll({ top: section.offsetTop - navbar.offsetHeight, left: 0, behavior: 'smooth' })
+    // window.scroll(0, section.offsetTop - navbar.offsetHeight)
     setActiveNavbarItem(item)
   })
 })
