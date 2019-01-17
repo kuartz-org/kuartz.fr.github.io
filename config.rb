@@ -68,4 +68,4 @@ activate :deploy do |deploy|
   deploy.commit_message = commit_message
 end
 
-activate :sprockets
+
