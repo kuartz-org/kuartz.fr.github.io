@@ -3,7 +3,7 @@ site:
   title_separator: •
   description: 'Web development'
   i18n: fr
-  url: 'https://www.kuartz.fr'
+  url: 'https://kuartz.fr'
   twitter_card_img: 'https://raw.githubusercontent.com/kuartz-org/logo/master/favicon_base.png'
   author: Guillaume & Tim
 
