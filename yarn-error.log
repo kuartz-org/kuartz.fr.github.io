@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: /home/guillaume/pro/apps/thekuartz/thekuartz.github.io/package.json: Unexpected token / in JSON at position 401
+  SyntaxError: /home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/package.json: Unexpected token / in JSON at position 401
       at JSON.parse (<anonymous>)
       at /usr/share/yarn/lib/cli.js:1631:59
       at Generator.next (<anonymous>)

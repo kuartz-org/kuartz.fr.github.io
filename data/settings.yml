@@ -3,9 +3,9 @@ site:
   title_separator: •
   description: 'Web development'
   i18n: fr
-  url: 'https://thekuartz.com'
-  twitter_card_img: 'https://raw.githubusercontent.com/thekuartz/logo/master/favicon_base.png'
+  url: 'https://www.kuartz.fr'
+  twitter_card_img: 'https://raw.githubusercontent.com/kuartz-org/logo/master/favicon_base.png'
   author: Guillaume & Tim
 
 social:
-  twitter: 'thekuartz'
+  twitter: 'kuartz'
