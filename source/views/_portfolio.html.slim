@@ -1,18 +1,18 @@
 section#portfolio-section.section.section.has-background-blue
   .container
-    h2.title.is-2.has-text-white.has-text-centered Nos projets
+    h2.section-title.title.is-2.has-text-white.has-text-centered Nos projets
     .kuartz-underline-title
-    .columns.is-multiline
+    .columns.is-variable.is-4.is-multiline
       - data.portfolio.each do |reference|
         .column.is-6
           .columns
             .column.is-6
-              .reference-card.has-background-black
-                .image.is-3by2.portfolio-image style="background-image: url('https://res.cloudinary.com/kuartz/image/upload/portfolio/#{reference.image_url}'); background-repeat: no-repeat; background-size: 100% 100%; background-position: top;"
-                  / = image_tag "https://res.cloudinary.com/kuartz/image/upload/c_pad,ar_3:2/portfolio/#{reference.image_url}"
+              .reference-card
+                .image.portfolio-image
+                  = image_tag "https://res.cloudinary.com/kuartz/image/upload/portfolio/#{reference.image_url}"
             .column.is-6
-              h3.title.is-3.has-text-grey-lighter.reference-card-title = reference.name
-              h4.title.is-4.has-text-grey-light.reference-card-description = reference.client
+              h3.title.is-3.has-text-grey-light.reference-card-title = reference.name
+              h4.title.is-4.has-text-grey-lighter.reference-card-description = reference.client
             
             .portfolio-modal-container
               .portfolio-modal
@@ -27,12 +27,11 @@ section#portfolio-section.section.section.has-background-blue
                     i.fas.fa-angle-left
 
                 .h2.title.modal-title = reference.name
-                .columns
-                  .column.is-two-thirds
-                    .image
-                      = image_tag "https://res.cloudinary.com/kuartz/image/upload/portfolio/#{reference.image_url}"
+                .columns.is-gapless
+                  .column.is-two-third.image-container
+                    = image_tag "https://res.cloudinary.com/kuartz/image/upload/portfolio/#{reference.image_url}"
                   .column.is-one-third
-                    p.modal-description.is-size-5 = reference.description
+                    p.modal-description = reference.description
                 
               / .columns.is-multiline
               /   - reference.stack.each do |techno|

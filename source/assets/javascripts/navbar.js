@@ -11,9 +11,9 @@ navbarItems.forEach(item => {
   item.addEventListener('click', event => {
     event.preventDefault()
     const section = document.querySelector(item.getAttribute('href'))
-    window.scroll({ top: section.offsetTop - navbar.offsetHeight, left: 0, behavior: 'smooth' })
-    // window.scroll(0, section.offsetTop - navbar.offsetHeight)
+    
     setActiveNavbarItem(item)
+    window.scroll({ top: section.offsetTop - navbar.offsetHeight, left: 0, behavior: 'smooth' })
   })
 })
 

@@ -1,6 +1,6 @@
 section#team-section.section.section.has-background-blue
   .container
-    h2.title.is-2.has-text-white.has-text-centered L'équipe
+    h2.section-title.title.is-2.has-text-white.has-text-centered L'équipe
     .kuartz-underline-title
     .columns
       - data.team.each do |member|
@@ -9,12 +9,12 @@ section#team-section.section.section.has-background-blue
               .image.is-128x128
                 = image_tag member.photo_url, class: 'is-rounded'
               .member-details
-                h4.title.is-4.has-text-white = member.name
-                - member.jobs.each do |job|
-                  .is-size-5.has-text-grey-light = job
+                h4.title.has-text-white = member.name
+                .jobs-description
+                  - member.jobs.each do |job|
+                    .has-text-grey-light = job
                 
                 = link_to member.email, "mailto:#{member.email}", class: 'button is-text is-link is-paddingless'
     .columns
-      .column.is-5
-      .column.is-2
-        = link_to "Contactez-nous", 'mailto:contact@kuartz.fr', class: 'button is-primary is-large is-fullwidth contact-btn'
+      .column
+        = link_to "Contactez-nous", 'mailto:contact@kuartz.fr', class: 'contact-btn'

@@ -11,7 +11,14 @@
     }
 
     .key-figure{
+      font-family: $family-title;
+      font-weight: 600;
+      margin-top: 4px;
       font-size: 32px;
+    }
+
+    p:last-child{
+      margin-top: -4px;
     }
   }
 }
