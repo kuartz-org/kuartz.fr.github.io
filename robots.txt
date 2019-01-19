@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://thekuartz.com/sitemap.xml
+Sitemap: https://www.kuartz.fr/sitemap.xml
