@@ -12,7 +12,7 @@
 -
   name: Live du Grand Raid de la Réunion 2018
   client: SFR
-  description: "Réalisation d'une plateforme web pour la diffusion sur la page facebook de SFR Réunion du passage aux différents checkpoints de 20 coureurs élites lors du Grand Raid 2018 de la Réunion. Création d'un chatbot messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints."
+  description: "Réalisation d'une plateforme web pour la diffusion sur la page Facebook de SFR Réunion du passage aux différents checkpoints de 20 coureurs élites lors du Grand Raid 2018 de la Réunion. Création d'un chatbot Messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints."
   image_url: grand-raid-reunion-2018.png
   stack:
     -
@@ -64,7 +64,7 @@
 -
   name: Seazon DOJO
   client: DOJO
-  description: "Réalisation d'une platforme web pour permettre aux coworkers du Dojo de commander des plats Seazon."
+  description: "Réalisation d'une platforme web pour permettre la gestion et la commande de plats cuisinés Seazon."
   image_url: Screenshot_2018-12-28_Seazon_Dojo.png
   stack:
     -
@@ -74,7 +74,7 @@
 -
   name: GGR Talk
   client: Antoine Cousot
-  description: "Réalisation d'une platforme web pour permettre aux proches d'Antoine Cousot de communiquer avec lui via les radio-amateurs pendant la Golden Globe Race."
+  description: "Réalisation d'une platforme web pour permettre aux proches d'Antoine Cousot de communiquer avec lui via une équipe de radio-amateurs pendant la Golden Globe Race 2018."
   image_url: Screenshot_2018-12-08_G_G_R_Talk.png
   stack:
     -
