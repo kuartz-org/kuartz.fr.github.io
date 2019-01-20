@@ -3,6 +3,7 @@
   client: Société Générale
   description: "Réalisation d'une plateforme web pour permettre aux collaborateurs et aux managers de la Société Générale de consulter et d'analyser l'ensemble des données générées par les startups dévéloppées lors d'un programme intrepreneurial organisé dans l'ensemble du groupe Société Générale."
   image_url: isc-explorer.png
+  image_orientation: landscape
   stack:
     -
       name: Ruby on Rails
@@ -14,6 +15,7 @@
   client: SFR
   description: "Réalisation d'une plateforme web pour la diffusion sur la page Facebook de SFR Réunion du passage aux différents checkpoints de 20 coureurs élites lors du Grand Raid 2018 de la Réunion. Création d'un chatbot Messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints."
   image_url: grand-raid-reunion-2018.png
+  image_orientation: landscape
   stack:
     -
       name: Ruby on Rails
@@ -25,6 +27,7 @@
   client: EP
   description: "Réalisation d'une plateforme web pour rassembler l'ensemble des données chantiers des agences locales de l'ADEME dans une base de donnée exploitable."
   image_url: Screenshot_2018-12-08_Les_co%C3%BBt_de_la_r%C3%A9novation.png
+  image_orientation: landscape
   stack:
     -
       name: Ruby on Rails
@@ -35,6 +38,7 @@
   client: Ensemble & Companie
   description: "Réalisation d'une plateforme web pour réaliser des bilans de compétences communautaire."
   image_url: Screenshot_2018-12-08_Ensemble1Job.png
+  image_orientation: landscape
   stack:
     -
       name: Ruby on Rails
@@ -45,6 +49,7 @@
   client: Paris Science et Lettres
   description: "Collecte des coordonnées de l'ensemble des chercheurs de Paris Sciences et Lettres (PSL) - groupement de neuf grandes écoles - automatiquement depuis les sites internet des différentes écoles grâce à plusieurs algorithmes de scraping.  La constitution de cette mailing list commune a été un élément clé pour promouvoir le projet Second Life permettant à des profils expérimentés de s'associer à des chercheurs pour créer des startups technologiques."
   image_url: psl.png
+  image_orientation: landscape
   url:
   stack:
     -
@@ -56,6 +61,7 @@
   client: Valentin Poupart
   description: "Réalisation d'une plateforme web de réservation pour abattoir de volailles mobile avec transferts sécurisés de documents réglementaires pour la DDPP."
   image_url: Screenshot_2018-12-08_Transformation_de_volailles.png
+  image_orientation: landscape
   stack:
     -
       name: Ruby on Rails
@@ -66,6 +72,7 @@
   client: DOJO
   description: "Réalisation d'une platforme web pour permettre la gestion et la commande de plats cuisinés Seazon."
   image_url: Screenshot_2018-12-28_Seazon_Dojo.png
+  image_orientation: landscape
   stack:
     -
       name: Ruby on Rails
@@ -76,6 +83,7 @@
   client: Antoine Cousot
   description: "Réalisation d'une platforme web pour permettre aux proches d'Antoine Cousot de communiquer avec lui via une équipe de radio-amateurs pendant la Golden Globe Race 2018."
   image_url: Screenshot_2018-12-08_G_G_R_Talk.png
+  image_orientation: portrait
   stack:
     -
       name: Ruby on Rails
@@ -86,17 +94,8 @@
   client: Technip FMC
   description: "Réalisation d'un tableau de bord gamifié pour permettre aux managers de Technip FMC d'analyser les interactions des participants et d'interagir avec eux pour dynamiser le challenge d'innovation organisé sur le réseau social d'entreprise (Yammer) du groupe."
   image_url: krowd.png
+  image_orientation: landscape
   stack:
     -
       name: Ruby on Rails
       logo: rails-logo.svg
-    # -
-    #   name: Google Charts
-    #   logo: 
-  url:
-
-# - name:
-#   client:
-#   description:
-#   image_url:
-#   url:

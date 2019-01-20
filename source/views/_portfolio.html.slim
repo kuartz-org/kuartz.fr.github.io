@@ -4,15 +4,15 @@ section#portfolio-section.section.section.has-background-blue
     .kuartz-underline-title
     .columns.is-variable.is-4.is-multiline
       - data.portfolio.each do |reference|
-        .column.is-6
+        .column.is-6.portfolio-element
           .columns
-            .column.is-6
-              .reference-card
-                .image.portfolio-image
-                  = image_tag "https://res.cloudinary.com/kuartz/image/upload/portfolio/#{reference.image_url}"
-            .column.is-6
+            .column.is-6.portfolio-description-container
               h3.title.is-3.has-text-grey-light.reference-card-title = reference.name
               h4.title.is-4.has-text-grey-lighter.reference-card-description = reference.client
+            .column.is-6
+              .reference-card
+                .image.portfolio-image class="#{reference.image_orientation}-image"
+                  = image_tag "https://res.cloudinary.com/kuartz/image/upload/portfolio/#{reference.image_url}"
             
             .portfolio-modal-container
               .portfolio-modal
@@ -32,10 +32,3 @@ section#portfolio-section.section.section.has-background-blue
                     = image_tag "https://res.cloudinary.com/kuartz/image/upload/portfolio/#{reference.image_url}"
                   .column.is-one-third
                     p.modal-description = reference.description
-                
-              / .columns.is-multiline
-              /   - reference.stack.each do |techno|
-              /     .column.is-4.has-text-centered
-              /       .flexbox.flexbox-center
-              /         figure.image.is-64x64.is-centered
-              /           = image_tag "logos/#{techno.logo}", alt: techno.name, title: techno.name
