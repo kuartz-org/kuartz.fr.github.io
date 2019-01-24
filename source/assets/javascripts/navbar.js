@@ -33,8 +33,12 @@ const navbarItems  = navbar.querySelectorAll('.navbar-menu .navbar-item')
 navbarItems.forEach(item => {
   item.addEventListener('click', event => {
     event.preventDefault()
-    const section = document.querySelector(item.getAttribute('href'))
+    const section      = document.querySelector(item.getAttribute('href'))
+    const navbarBurger = document.querySelector('.navbar-burger')
+    const navbarMenu   = document.getElementById('navbarMenu')
     
+    navbarBurger.classList.remove('is-active')
+    navbarMenu.classList.remove('is-active')
     setActiveNavbarItem(item)
     window.scroll({ top: section.offsetTop - navbar.offsetHeight, left: 0, behavior: 'smooth' })
   })
