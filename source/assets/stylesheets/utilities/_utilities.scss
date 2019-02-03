@@ -1,0 +1,82 @@
+// ###### SPACING ######
+@mixin spacing ($breakpoint, $i) {
+  $value: '';
+  $size: '';
+
+  @each $spacing in 'padding', 'margin' {
+    @each $position in '', '-x', '-y', '-top', '-bottom', '-left', '-right' {
+      @if $i == -1 {
+        $size: auto;
+        $value: auto;
+      }
+      @else {
+        $size: $i+px;
+        $value: $i;
+      }
+      
+      .#{$spacing}#{$position}#{$breakpoint}-#{$value} {
+        @if $position == '-top' or $position == '-y' or $position == '' {
+          #{$spacing}-top: $size !important;
+        }
+        @if $position == '-bottom' or $position == '-y' or $position == '' {
+          #{$spacing}-bottom: $size !important;
+        }              
+        @if $position == '-left' or $position == '-x' or $position == '' {
+          #{$spacing}-left: $size !important;
+        }
+        @if $position == '-right' or $position == '-x' or $position == '' {
+          #{$spacing}-right: $size !important;
+        }
+      }
+    }
+  }
+}
+  
+@for $i from -1 through 100 {
+  @each $breakpoint in '', '-xs', '-sm', '-md', '-lg', '-xl' {
+    @if $breakpoint != '' {
+      @include media-breakpoint-only($breakpoint){
+        @include spacing($breakpoint, $i)
+      }
+    }
+    @else {
+      @include spacing($breakpoint, $i)
+    }
+  }
+}
+
+// ###### FONTS ######
+.light{
+  font-weight: 300 !important;
+}
+.normal{
+  font-weight: 400 !important;
+}
+.semi-bold{
+  font-weight: 600 !important;
+}
+.bold{
+  font-weight: 800 !important;
+}
+
+@for $i from 1 through 100 {
+  .size-#{$i} { 
+    font-size: $i+px !important; 
+  };
+}
+
+// ###### MISCELLANEOUS ######
+a:hover{
+  text-decoration: none;
+}
+
+.box-shape{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.border-radius-8{
+  border-radius: 8px;
+}

@@ -2,6 +2,10 @@
 
 @import "config/index";
 @import "../../../node_modules/bulma/bulma.sass";
+
+$sizes: ();
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
 @import "layouts";
 @import "utilities/index";
 @import "components/index";

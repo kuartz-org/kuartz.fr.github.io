@@ -37,9 +37,12 @@ function previousPortfolioModal(){
   if(portfolioModalContainer){
     const modalIndex = Array.from(portfolioModalContainers).indexOf(portfolioModalContainer)
     
+    hideActivePortfolioModal()
+
     if(modalIndex !== 0){
-      hideActivePortfolioModal()
       displayPortfolioModal(portfolioModalContainers[modalIndex - 1])
+    } else {
+      displayPortfolioModal(portfolioModalContainers[portfolioModalContainers.length - 1])
     }
   }
 }
@@ -51,9 +54,12 @@ function nextPortfolioModal(){
   if(portfolioModalContainer){
     const modalIndex = Array.from(portfolioModalContainers).indexOf(portfolioModalContainer)
 
+    hideActivePortfolioModal(portfolioModalContainer)
+
     if(modalIndex !== portfolioModalContainers.length - 1){
-      hideActivePortfolioModal(portfolioModalContainer)
       displayPortfolioModal(portfolioModalContainers[modalIndex + 1])
+    } else {
+      displayPortfolioModal(portfolioModalContainers[0])
     }
   }
 }
@@ -74,5 +80,4 @@ document.addEventListener('keyup', event => {
 })
 
 window.addEventListener('resize', event => {
-  console.log(window.innerWidth)
 })
