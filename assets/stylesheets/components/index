@@ -1,11 +1,11 @@
 /*
 Error: Undefined variable: "$primary".
-        on line 17 of /home/guillaume/pro/apps/thekuartz/thekuartz.github.io/source/assets/stylesheets/components/_navbar.scss
-        from line 1 of /home/guillaume/pro/apps/thekuartz/thekuartz.github.io/source/assets/stylesheets/components/index.scss
+        on line 17 of /home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/components/_navbar.scss
+        from line 1 of /home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/components/index.scss
 
 Backtrace:
-/home/guillaume/pro/apps/thekuartz/thekuartz.github.io/source/assets/stylesheets/components/_navbar.scss:17
-/home/guillaume/pro/apps/thekuartz/thekuartz.github.io/source/assets/stylesheets/components/index.scss:1
+/home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/components/_navbar.scss:17
+/home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/components/index.scss:1
 /home/guillaume/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /home/guillaume/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /home/guillaume/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
@@ -170,4 +170,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary\".\A         on line 17 of /home/guillaume/pro/apps/thekuartz/thekuartz.github.io/source/assets/stylesheets/components/_navbar.scss\A         from line 1 of /home/guillaume/pro/apps/thekuartz/thekuartz.github.io/source/assets/stylesheets/components/index.scss"; }
+  content: "Error: Undefined variable: \"$primary\".\A         on line 17 of /home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/components/_navbar.scss\A         from line 1 of /home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/components/index.scss"; }

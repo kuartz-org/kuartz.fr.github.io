@@ -72,3 +72,7 @@ document.addEventListener('keyup', event => {
     }
   }
 })
+
+window.addEventListener('resize', event => {
+  console.log(window.innerWidth)
+})
