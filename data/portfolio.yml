@@ -70,7 +70,7 @@
 -
   name: Seazon DOJO
   client: DOJO
-  description: "Réalisation d'une platforme web pour permettre la gestion et la commande de plats cuisinés Seazon."
+  description: "Réalisation d'une plateforme web pour permettre la gestion et la commande de plats cuisinés Seazon."
   image_url: Screenshot_2018-12-28_Seazon_Dojo.png
   image_orientation: landscape
   stack:
@@ -81,7 +81,7 @@
 -
   name: GGR Talk
   client: Antoine Cousot
-  description: "Réalisation d'une platforme web pour permettre aux proches d'Antoine Cousot de communiquer avec lui via une équipe de radio-amateurs pendant la Golden Globe Race 2018."
+  description: "Réalisation d'une plateforme web pour permettre aux proches d'Antoine Cousot de communiquer avec lui via une équipe de radio-amateurs pendant la Golden Globe Race 2018."
   image_url: Screenshot_2018-12-08_G_G_R_Talk.png
   image_orientation: portrait
   stack:
