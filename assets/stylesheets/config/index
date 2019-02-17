@@ -1,2 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,800");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,800");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800");
+.kuartz-blue {
+  color: #21234C; }
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #EE5F5B; }
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid,
+.was-validated .custom-select:invalid,
+.custom-select.is-invalid {
+  border-color: #EE5F5B; }
+
+.was-validated .form-control:invalid ~ .invalid-feedback,
+.was-validated .form-control:invalid ~ .invalid-tooltip,
+.form-control.is-invalid ~ .invalid-feedback,
+.form-control.is-invalid ~ .invalid-tooltip,
+.was-validated .custom-select:invalid ~ .invalid-feedback,
+.was-validated .custom-select:invalid ~ .invalid-tooltip,
+.custom-select.is-invalid ~ .invalid-feedback,
+.custom-select.is-invalid ~ .invalid-tooltip {
+  display: block; }
