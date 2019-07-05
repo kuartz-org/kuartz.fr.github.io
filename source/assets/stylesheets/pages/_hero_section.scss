@@ -1,5 +1,28 @@
-#hero-section{
+#hero-section {
+  background-image: image-url('hero-background.svg');
+  background-repeat: no-repeat;
+  background-position: top -54px right;
+
   .subtitle{
     letter-spacing: 0.1em;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+nav.navbar {
+  background-image: image-url('hero-background.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 767px) {
+  #hero-section, nav.navbar {
+    background-image: none;
   }
 }

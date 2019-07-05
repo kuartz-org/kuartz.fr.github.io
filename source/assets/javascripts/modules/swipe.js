@@ -9,7 +9,7 @@ if (slider) {
   window.mySwipe = new Swipe(slider, {
     startSlide:      randomPosition, // index position at which Swipe should start.
     speed:           1000,           // speed of prev and next transitions in milliseconds.
-    auto:            7000,           // when specified, start an auto-playing slideshow (time in milliseconds between slide change).
+    auto:            4000,           // when specified, start an auto-playing slideshow (time in milliseconds between slide change).
     continuous:      true,           // create an infinite feel with no endpoints.
     autoRestart:     false,          // auto restart slideshow after user's touch event or next/prev calls.
     disableScroll:   false,          // prevent any touch events on this container from scrolling the page.
