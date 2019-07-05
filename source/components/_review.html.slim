@@ -1,0 +1,14 @@
+.review-wrapper
+  .review
+    .image.is-64x64
+      = image_tag review.photo_url, class: 'is-rounded'
+    .item
+      p.has-text-black
+        | ‟
+        = review.content
+        | ”
+      
+      span
+        = review.author
+        | ,
+        =< review.position

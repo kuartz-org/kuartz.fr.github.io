@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var Clean = require('clean-webpack-plugin');
+// var Clean = require('clean-webpack-plugin');
 
 const path = require('path');
 
@@ -49,7 +49,7 @@ module.exports = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
       },
     }),
-    new Clean(['.tmp']),
+    // new Clean(['.tmp']),
     new ExtractTextPlugin('assets/stylesheets/[name].bundle.css'),
   ],
 };

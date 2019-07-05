@@ -2,6 +2,12 @@ section#companies-section.section.section.has-background-primary
   .container
     h2.section-title.title.is-2.has-text-white.has-text-centered Ils nous font confiance
     .kuartz-underline-title-inverted
+    
+    #slider.swipe
+      .swipe-wrap
+        - data.reviews.each do |review|
+          = partial 'components/review.html', locals: { review: review }
+
     .columns
       - data.clients.each do |client|
         .column

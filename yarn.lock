@@ -4743,6 +4743,11 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
+swipejs@^2.2.14:
+  version "2.2.14"
+  resolved "https://registry.yarnpkg.com/swipejs/-/swipejs-2.2.14.tgz#e812d677b179cc6ff04769db1e8c9f7510ad3d5e"
+  integrity sha512-lJ/4mMCBYXXWLCFYhXyQumBZksIH+MQwHLRAF5VfdkHCn+Mz3VQOeXjS6W638tr2iyhdJrfdAx0srkXlZ7DnRQ==
+
 tapable@^0.2.7:
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.2.9.tgz#af2d8bbc9b04f74ee17af2b4d9048f807acd18a8"
