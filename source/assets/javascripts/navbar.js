@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const navbar       = document.querySelector('.navbar')
 const navbarHeight = navbar.offsetHeight
-const navbarItems  = navbar.querySelectorAll('.navbar-menu .navbar-item')
+const navbarItems  = navbar.querySelectorAll('.navbar-menu .js-navbar-item')
 
 navbarItems.forEach(item => {
   item.addEventListener('click', event => {
@@ -36,11 +36,13 @@ navbarItems.forEach(item => {
     const section      = document.querySelector(item.getAttribute('href'))
     const navbarBurger = document.querySelector('.navbar-burger')
     const navbarMenu   = document.getElementById('navbarMenu')
-    
-    navbarBurger.classList.remove('is-active')
-    navbarMenu.classList.remove('is-active')
-    setActiveNavbarItem(item)
-    window.scroll({ top: section.offsetTop - navbar.offsetHeight, left: 0, behavior: 'smooth' })
+
+    if ( section ) {
+      navbarBurger.classList.remove('is-active')
+      navbarMenu.classList.remove('is-active')
+      setActiveNavbarItem(item)
+      window.scroll({ top: section.offsetTop - navbar.offsetHeight, left: 0, behavior: 'smooth' })
+    }
   })
 })
 
@@ -58,9 +60,12 @@ function getActiveNavbarItem() {
   let activeNavbarItem
   Array.from(navbarItems).forEach(item => {
     const section      = document.querySelector(item.getAttribute('href'))
-    const itemPosition = section.offsetTop - navbarHeight
-    if (itemPosition <= windowPosition) {
-      activeNavbarItem = item
+
+    if ( section ) {
+      const itemPosition = section.offsetTop - navbarHeight
+      if (itemPosition <= windowPosition) {
+        activeNavbarItem = item
+      }
     }
   })
 

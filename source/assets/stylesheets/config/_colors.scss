@@ -2,9 +2,32 @@ $grey-light: #D8D8D8;
 $grey-lighter: #F8F8F8;
 $blue: #303062;
 $kuartz-blue: #21234C;
-$primary: #EA5073;
+$kuartz-red: #d60d3d;
+$primary: $kuartz-red;
+$secondary: $kuartz-blue;
 $red: #EE5F5B;
+$white: white;
 
-.kuartz-blue{
+.kuartz-blue {
   color: $kuartz-blue;
+
+  &-bg {
+    background-color: $kuartz-blue;
+  }
+}
+
+.kuartz-red {
+  color: $kuartz-red;
+
+  &-bg {
+    background-color: $kuartz-red;
+  }
+}
+
+.white {
+  color: $white;
+
+  &-bg {
+    background-color: $white;
+  }
 }

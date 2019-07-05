@@ -9,17 +9,17 @@
     cursor: pointer;
     margin: auto;
     margin-bottom: 16px;
-    
+
     .image{
       width: 100%;
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      
+
       &, img{
         max-height: 192px;
       }
-      
+
       &.landscape-image img{
         width: 100%;
         height: auto;
@@ -69,7 +69,7 @@
       box-sizing: border-box;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
       border: 1px solid rgba(0, 0, 0, 0.1);
-      
+
       .modal-title{
         font-family: $family-title;
         font-weight: 600;
@@ -80,7 +80,7 @@
         margin-bottom: 32px;
         letter-spacing: 0.5px;
       }
-      
+
       .modal-description{
         font-size: 16px;
         text-align: justify;
@@ -99,7 +99,7 @@
 
         img{
           border-radius: 8px;
-          width: auto; 
+          width: auto;
           height: auto;
           max-width: 100%;
           box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
@@ -107,17 +107,17 @@
           display: block;
         }
       }
-        
+
       .modal-btn-container{
         position: absolute;
       }
-      
+
       .modal-btn{
         z-index: 5;
         cursor: pointer;
         color: $white;
         font-size: 32px;
-        
+
         &:hover{
           color: $primary;
         }
@@ -127,7 +127,7 @@
         top: 16px; right: 16px;
         width: 22px; height: 32px;
         display: flex; align-items: flex-start; justify-content: flex-end;
-        
+
         .close-btn{
           z-index: 10;
         }
@@ -143,7 +143,7 @@
         height: 100%;
         display: flex; align-items: center; justify-content: center;
       }
-      
+
       .previous-btn-container{
         left: 19px;
       }
@@ -158,26 +158,26 @@
 @media screen and (max-width: $tablet) {
   .portfolio-description-container{
     text-align: center;
-  }  
-  
+  }
+
   .landscape-image img{
     width: auto;
     height: auto;
     max-width: 90% !important;
     max-height: none;
   }
-  
+
   .portfolio-modal{
     width: 100vw !important;
     height: 100vh !important;
     max-height: none !important;
     border-radius: 0 !important;
   }
-  
+
   .modal-description{
     margin-left: 0 !important;
   }
-  
+
   .image-container{
     margin-bottom: 24px !important;
   }
