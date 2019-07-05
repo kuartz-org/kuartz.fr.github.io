@@ -18,12 +18,24 @@ if (slider) {
   
     callback: function(index, elem, dir) {
       // runs at slide change. Three parameters are passed to the function: index (the current slide index)elem (the current slide element) and dir (direction: 1 for left or backward-1 for right or forward).
-      
+
     },
   
     transitionEnd: function(index, elem) {
       // runs at the end of a slide transition. Two parameters are passed to the function: index (the current slide index) and elem (the current slide element).
-  
+      let nextReview;
+
+      if (elem.nextElementSibling) {
+        nextReview = elem.nextElementSibling.querySelector('.review');
+      } else {
+        nextReview = elem.parentElement.querySelector('div:first-child > .review');
+      }
+      
+      console.log(nextReview);
+
+      nextReview.style.background = "linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0))";
     }
   });
 }
+
+{/* <div class="review-wrapper" style="width: 1110px; left: -1110px; transition-duration: 0ms; transform: translateX(1110px);" data-index="1"><div class="review"><div class="image is-64x64"><img src="https://res.cloudinary.com/kuartz/image/upload/ar_1:1,c_fill,g_auto/v1562319802/reviews/kaptalia.jpg" class="is-rounded" alt="Kaptalia"></div><div class="item"><p class="has-text-black">‟Réactivité et respect des délais. Un plaisir.”</p><span>Jean Bernard, Kaptalia Monitoring</span></div></div></div> */}
