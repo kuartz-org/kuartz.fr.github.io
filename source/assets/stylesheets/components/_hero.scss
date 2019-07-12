@@ -1,6 +1,7 @@
-#message-icon {
+#message-icon:hover {
+  animation: wobble-hor-bottom ease-in-out 2s both;
+}
 
-  &:hover {
-    animation: wobble-hor-bottom ease-in-out 2s both;
-  }
+#code {
+  animation: bounce-top 0.9s both;
 }
