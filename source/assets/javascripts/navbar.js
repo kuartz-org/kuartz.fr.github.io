@@ -48,9 +48,28 @@ navbarItems.forEach(item => {
 
 document.addEventListener('scroll', event => {
   setActiveNavbarItem(getActiveNavbarItem())
+
+  if (window.scrollY >= 54) {
+    removeNavbarBackground()
+  } else {
+    setNavbarBackground()
+  }
 })
 
 setActiveNavbarItem(getActiveNavbarItem())
+
+function removeNavbarBackground() {
+  navbar.style.backgroundImage = 'none'
+  navbar.style.borderBottom = '1px solid #f5f5f5'
+}
+
+function setNavbarBackground() {
+  const heroBackground = navbar.dataset.heroBackgroundUrl
+  if (window.innerWidth > 767) {
+    navbar.style.backgroundImage = `url(${heroBackground})`
+  }
+  navbar.style.borderBottom = 'none'
+}
 
 function getActiveNavbarItem() {
   const windowPosition = window.pageYOffset
