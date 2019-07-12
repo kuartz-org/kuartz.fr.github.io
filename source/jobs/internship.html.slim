@@ -1,0 +1,10 @@
+.wrapper.has-navbar-fixed-top.kuartz-blue-bg
+  .container.job-offer-page-container
+    .row
+      .col-12
+        .job-offer-container
+          = partial "internship_offer"
+          .btn-cta--container
+            = link_to "/jobs/job_application", class: "btn-cta btn-cta--lg btn-cta--primary" do
+              | Postuler
+              i.fas.fa-rocket.ml-2

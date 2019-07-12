@@ -1,4 +1,4 @@
 import 'bootstrap';
-import './navbar';
-import './portfolio';
+import './components/navbar';
+import './components/portfolio';
 import './modules/swipe';
