@@ -5,6 +5,15 @@ html prefix="og: http://ogp.me/ns#" lang="#{data.settings.site.i18n}"
     meta charset="utf-8"
     meta http-equiv="x-ua-compatible" content="ie=edge"
     meta name="viewport"              content="width=device-width, initial-scale=1.0"
+    
+    // Global site tag (gtag.js) - Google Analytics
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-143942495-1")
+    javascript:
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-143942495-1');
+
     = partial 'layouts/commons/meta_tags'
     = partial 'layouts/commons/favicon'
 

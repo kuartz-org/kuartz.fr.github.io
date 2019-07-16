@@ -44,6 +44,13 @@ $service-width: 512px;
     max-width: calc(2 * #{$service-width} / 3);
     padding: 16px;
     text-align: center;
+    color: #343434;
+  }
+
+  transition: .1s;
+
+  &:hover {
+    transform: scale(1.02);
   }
 }
 

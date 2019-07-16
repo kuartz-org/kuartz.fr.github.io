@@ -1,7 +1,8 @@
 .service
-  .label = service.label
-  h5.title.is-5 = service.title
-  .image = image_tag "services/#{service.image}.svg"
-  .content
-    = service.content
-    strong =< service.brand
+  = link_to 'mailto:contact@kuartz.fr' do
+    .label = service.label
+    h5.title.is-5 = service.title
+    .image = image_tag "services/#{service.image}.svg"
+    .content
+      = service.content
+      strong =< service.brand
