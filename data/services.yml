@@ -1,0 +1,41 @@
+-
+  label:   Chatbot
+  title:   Communiquez facilement avec vos clients
+  brand:   SFR
+  content: Découvrir notre chatbot Messenger pour
+  image:   chatbot
+
+-
+  label:   Scraping
+  title:   Récupérer des données publiques rapidement
+  brand:   Kaptalia Monitoring
+  content: Découvrir notre expertise au service de 
+  image:   scraping
+
+-
+  label:   Progressive Web App
+  title:   Une application web adaptée aux mobiles
+  brand:   Sécurité Routière
+  content: Découvrir notre application PWA pour la
+  image:   pwa
+
+-
+  label:   Application web
+  title:   Un outil sur mesure pour vos besoins métier
+  brand:   Seazon
+  content: Découvrir notre application de gestion et commandes de plats
+  image:   web-app
+
+-
+  label:   Process back-end
+  title:   Des processus intelligents sur mesure
+  brand:   Livetrend
+  content: Décrouvir notre logiciel d’analyse des tendances mode pour
+  image:   back-end
+
+-
+  label:   Données dynamiques
+  title:   Gestion et maitrise des données métiers
+  brand:   Société Générale
+  content: Découvrir notre plateforme d’analyse de Start-ups pour la
+  image:   data-base

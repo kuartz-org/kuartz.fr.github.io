@@ -1,0 +1,9 @@
+section#services-section.section.has-background-blue
+  .container
+    h2.section-title.title.is-2.has-text-white.has-text-centered Nos services
+    .kuartz-underline-title
+
+    .columns.is-multiline
+      - data.services.each do |service|
+        .column.is-half
+          = partial 'components/service.html', locals: { service: service }
