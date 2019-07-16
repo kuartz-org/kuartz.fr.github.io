@@ -1,11 +1,33 @@
 $grey-light: #D8D8D8;
 $grey-lighter: #F8F8F8;
 $blue: #303062;
-$kuartz-blue: #221C34;
-$kuartz-pink: #D60D3D;
+$kuartz-blue: #221c34;
+$kuartz-pink: #d60d3d;
 $primary: $kuartz-pink;
+$secondary: $kuartz-blue;
 $red: #EE5F5B;
+$white: white;
 
-.kuartz-blue{
+.kuartz-blue {
   color: $kuartz-blue;
+
+  &-bg {
+    background-color: $kuartz-blue;
+  }
+}
+
+.kuartz-pink {
+  color: $kuartz-pink;
+
+  &-bg {
+    background-color: $kuartz-pink;
+  }
+}
+
+.white {
+  color: $white;
+
+  &-bg {
+    background-color: $white;
+  }
 }

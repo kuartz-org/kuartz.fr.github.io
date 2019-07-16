@@ -1,0 +1,38 @@
+.jobs-wrapper.has-navbar-fixed-top
+  .kuartz-blue-bg.py-5
+    .container
+      .row
+        .col-12
+          h2.section-title Nos offres
+          .kuartz-underline-title
+      .row.section-offers
+        - data.job_offers.each do |job_offer|
+          .col-12.col-md-6
+            .offer-card--container.m-auto
+              .offer-card
+                h3.offer-card--title = job_offer.title
+                .offer-card--content
+                  = job_offer.description
+                .btn-cta--container
+                  = link_to "/jobs/internship", class: "btn-cta btn-cta--primary" do
+                    | Voir le détail
+                    i.fas.fa-chevron-right.ml-2
+
+  .kuartz-pink-bg.py-5
+    .container
+      .row
+        .col-12
+          h2.section-title Candidatures spontanées
+          .kuartz-underline-title-inverted
+
+      .row
+        .col-12.white.text-center
+          .mb-4
+            p Tu as envie de rejoindre une start-up en plein développement et apprendre de pleins de nouveaux skills ?
+            p Tu veux te créer une expérience structurante en start-up ?
+            p Tu as la fibre entrepreneuriale et te sens prêt à assumer des responsabilités ?
+            p Rejoins-nous !
+          .btn-cta--container
+            = link_to "/jobs/job_application", class: "btn-cta btn-cta--lg btn-cta--secondary"
+              | Je candidate
+              i.fas.fa-rocket.ml-2

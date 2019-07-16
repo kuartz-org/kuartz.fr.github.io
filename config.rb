@@ -1,10 +1,15 @@
 require 'slim'
+require 'redcarpet'
 
 activate :directory_indexes
 
 set :css_dir,    'assets/stylesheets'
 set :images_dir, 'assets/images'
 set :js_dir,     'assets/javascripts'
+
+set :markdown_engine, :redcarpet
+set :redcarpet, :autolink => true, :no_intra_emphasis => true, :fenced_code_blocks => true, :strikethrough => true
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :external_pipeline,
   name: :webpack,

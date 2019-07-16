@@ -2,19 +2,32 @@ section#key-figures-section.section.has-background-light
   .container
     h2.section-title.title.is-2.has-text-blue.has-text-centered Kuartz en chiffres
     .kuartz-underline-title
-    .columns
-      .column
+    .row
+      .col-12.col-md-4
+        i.fas.fa-rocket.fa-icon.has-text-blue
+        p.mb-0.key-figure.has-text-blue = 64 + ((Date.today  - Date.new(2019, 07, 14)).to_i / 15).ceil
+        p
+          | applications
+          br
+          | mises en production
+      .col-12.col-md-4
         i.fas.fa-code.fa-icon.has-text-blue
-        p.key-figure.has-text-blue 11 436 694
-        p lignes de code
-        p produites
-      .column
+        - figure = 1420000 + (((Date.today  - Date.new(2019, 07, 14)).to_i / 15).ceil * 10000)
+        - figure_thousands = (figure / 1000000).floor
+        - figure_hundreds  = ((figure - figure_thousands * 1000000) / 1000).floor
+        - figure_units     = figure - figure_thousands * 1000000 - figure_hundreds * 1000
+        p.mb-0.key-figure.has-text-blue = "#{figure_thousands} #{sprintf("%03d",figure_hundreds)} #{sprintf("%03d",figure_units)}+"
+        p
+          | lignes de code
+          br
+          | produites
+      .col-12.col-md-4
         i.fas.fa-users.fa-icon.has-text-blue
-        p.key-figure.has-text-blue 15 000+
-        p utilisateurs
-        p de nos applications
-      .column
-        i.fas.fa-coffee.fa-icon.has-text-blue
-        p.key-figure.has-text-blue 16 732
-        p espressos
-        p consommés
+        - figure = (15000 + (((Date.today  - Date.new(2019, 07, 14)).to_i / 15).ceil * 1000))
+        - figure_hundreds  = (figure / 1000).floor
+        - figure_units     = figure - figure_hundreds * 1000
+        p.mb-0.key-figure.has-text-blue = "#{figure_hundreds} #{sprintf("%03d",figure_units)}+"
+        p
+          | utilisateurs
+          br
+          | de nos applications

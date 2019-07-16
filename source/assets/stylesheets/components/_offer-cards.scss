@@ -1,0 +1,28 @@
+.offer-card--container {
+  .offer-card {
+    @extend %box-shadow;
+    margin-bottom: 24px;
+    padding: 16px;
+    background-color: $white;
+    border-radius: 8px;
+  }
+
+  .offer-card--title {
+    color: $kuartz-pink;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .offer-card--content {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+}
+
+.btn-cta--container {
+  @extend %flex-center;
+}

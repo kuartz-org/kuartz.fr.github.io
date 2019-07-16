@@ -1,4 +1,4 @@
-import '../../../node_modules/bootstrap/dist/js/bootstrap.min';
-import './navbar';
-import './portfolio';
+import 'bootstrap';
+import './components/navbar';
+import './components/portfolio';
 import './modules/swipe';

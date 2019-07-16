@@ -1,0 +1,42 @@
+.btn-cta {
+  @extend %flex-center;
+  @extend %box-shadow;
+  font-size: 12px;
+  &.btn-cta--lg {
+    $cta-height: 48px;
+    font-size: 20px;
+    height: $cta-height;
+    border-radius: calc(#{$cta-height} / 2);
+    padding-left: calc(#{$cta-height} / 2);
+    padding-right: calc(#{$cta-height} / 2);
+  }
+  $cta-height: 36px;
+  height: $cta-height;
+  border-radius: calc(#{$cta-height} / 2);
+  padding-left: calc(#{$cta-height} / 2);
+  padding-right: calc(#{$cta-height} / 2);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.btn-cta--primary {
+  background-color: $primary;
+  border: 2px solid $primary;
+  color: $white;
+
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
+
+.btn-cta--secondary {
+  background-color: $secondary;
+  border: 2px solid $secondary;
+  color: $white;
+
+  &:hover {
+    background-color: $white;
+    color: $secondary;
+  }
+}

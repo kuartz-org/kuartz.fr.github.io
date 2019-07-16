@@ -15,10 +15,13 @@
 }
 
 nav.navbar {
-  background-image: image-url('hero-background.svg');
-  background-repeat: no-repeat;
-  background-position: top right;
+  position: sticky;
+  background-color: transparent;
   border-bottom: none;
+}
+
+.has-navbar-fixed-top {
+  padding-top: $navbar-height;
 }
 
 @media screen and (max-width: 767px) {
