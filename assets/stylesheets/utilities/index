@@ -1,104 +1,450 @@
-/*
-SassC::SyntaxError: Error: no mixin named media-breakpoint-only
-        on line 38 of source/assets/stylesheets/utilities/_utilities.scss
-        from line 2 of source/assets/stylesheets/utilities/index.scss
->>       @include media-breakpoint-only($breakpoint){
+.tracking-in-expand {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
-   ---------------^
+.slide-in-bottom {
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
+.heartbeat {
+  animation: heartbeat 7s ease-in-out infinite both; }
 
-Backtrace:
-/home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/utilities/_utilities.scss:38
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sassc-2.0.0/lib/sassc/engine.rb:49:in `render'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/file_renderer.rb:79:in `render'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:184:in `_render_with_all_renderers'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:147:in `block in render'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activesupport-5.0.5/lib/active_support/notifications.rb:166:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:146:in `render'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/sitemap/resource.rb:154:in `render'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:112:in `process_request'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:66:in `block in call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:65:in `catch'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:65:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/urlmap.rb:68:in `block in call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/urlmap.rb:53:in `each'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/urlmap.rb:53:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/extensions/minify_css.rb:63:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/htmlcompressor-0.2.0/lib/htmlcompressor/rack.rb:36:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/core_extensions/inline_url_rewriter.rb:74:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/head.rb:12:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/lint.rb:49:in `_call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/lint.rb:37:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/builder.rb:153:in `call'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/mock.rb:74:in `request'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.3/lib/rack/mock.rb:56:in `get'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:232:in `block in output_resource'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activesupport-5.0.5/lib/active_support/notifications.rb:166:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:225:in `output_resource'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:484:in `call_with_index'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:455:in `process_incoming_jobs'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:437:in `block in worker'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:428:in `fork'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:428:in `worker'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:419:in `block in create_workers'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:418:in `each'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:418:in `each_with_index'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:418:in `create_workers'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:358:in `work_in_processes'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/parallel-1.12.0/lib/parallel.rb:264:in `map'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:137:in `output_resources'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:131:in `output_files'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:71:in `block in run!'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activesupport-5.0.5/lib/active_support/notifications.rb:166:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:70:in `run!'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-cli-4.2.1/lib/middleman-cli/build.rb:80:in `block in build'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activesupport-5.0.5/lib/active_support/notifications.rb:166:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-cli-4.2.1/lib/middleman-cli/build.rb:79:in `build'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/invocation.rb:133:in `block in invoke_all'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/invocation.rb:133:in `each'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/invocation.rb:133:in `map'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/invocation.rb:133:in `invoke_all'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/group.rb:232:in `dispatch'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/invocation.rb:115:in `invoke'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor.rb:40:in `block in register'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/command.rb:27:in `run'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/invocation.rb:126:in `invoke_command'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor.rb:369:in `dispatch'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/thor-0.19.4/lib/thor/base.rb:444:in `start'
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
-/home/guillaume/.rbenv/versions/2.6.3/bin/middleman:23:in `load'
-/home/guillaume/.rbenv/versions/2.6.3/bin/middleman:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "SassC::SyntaxError: Error: no mixin named media-breakpoint-only\A         on line 38 of source/assets/stylesheets/utilities/_utilities.scss\A         from line 2 of source/assets/stylesheets/utilities/index.scss\A >>       @include media-breakpoint-only($breakpoint){\A \A    ---------------^\A "; }
+.wobble-hor-bottom {
+  animation: wobble-hor-bottom 7s infinite both; }
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out; }
+  5% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in; }
+  8% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out; }
+  16% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in; }
+  22% {
+    transform: scale(1);
+    animation-timing-function: ease-out; } }
+
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%; }
+  15% {
+    transform: translateX(-20px) rotate(-6deg); }
+  30% {
+    transform: translateX(10px) rotate(6deg); }
+  45% {
+    transform: translateX(-10px) rotate(-3.6deg); }
+  60% {
+    transform: translateX(5px) rotate(2.4deg); }
+  75% {
+    transform: translateX(-3px) rotate(-1.2deg); } }
+
+@keyframes bounce-left {
+  0% {
+    transform: translateX(-48px);
+    animation-timing-function: ease-in;
+    opacity: 1; }
+  24% {
+    opacity: 1; }
+  40% {
+    transform: translateX(-26px);
+    animation-timing-function: ease-in; }
+  65% {
+    transform: translateX(-13px);
+    animation-timing-function: ease-in; }
+  82% {
+    transform: translateX(-6.5px);
+    animation-timing-function: ease-in; }
+  93% {
+    transform: translateX(-4px);
+    animation-timing-function: ease-in; }
+  25%,
+  55%,
+  75%,
+  87%,
+  98% {
+    transform: translateX(0px);
+    animation-timing-function: ease-out; }
+  100% {
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
+    opacity: 1; } }
+
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-20px);
+    animation-timing-function: ease-in;
+    opacity: 1; }
+  24% {
+    opacity: 1; }
+  40% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in; }
+  65% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in; }
+  82% {
+    transform: translateY(-3px);
+    animation-timing-function: ease-in; }
+  93% {
+    transform: translateY(-2px);
+    animation-timing-function: ease-in; }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out; }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1; } }
+
+.light {
+  font-weight: 300 !important; }
+
+.normal {
+  font-weight: 400 !important; }
+
+.semi-bold {
+  font-weight: 600 !important; }
+
+.bold {
+  font-weight: 800 !important; }
+
+.size-1 {
+  font-size: 1px !important; }
+
+.size-2 {
+  font-size: 2px !important; }
+
+.size-3 {
+  font-size: 3px !important; }
+
+.size-4 {
+  font-size: 4px !important; }
+
+.size-5 {
+  font-size: 5px !important; }
+
+.size-6 {
+  font-size: 6px !important; }
+
+.size-7 {
+  font-size: 7px !important; }
+
+.size-8 {
+  font-size: 8px !important; }
+
+.size-9 {
+  font-size: 9px !important; }
+
+.size-10 {
+  font-size: 10px !important; }
+
+.size-11 {
+  font-size: 11px !important; }
+
+.size-12 {
+  font-size: 12px !important; }
+
+.size-13 {
+  font-size: 13px !important; }
+
+.size-14 {
+  font-size: 14px !important; }
+
+.size-15 {
+  font-size: 15px !important; }
+
+.size-16 {
+  font-size: 16px !important; }
+
+.size-17 {
+  font-size: 17px !important; }
+
+.size-18 {
+  font-size: 18px !important; }
+
+.size-19 {
+  font-size: 19px !important; }
+
+.size-20 {
+  font-size: 20px !important; }
+
+.size-21 {
+  font-size: 21px !important; }
+
+.size-22 {
+  font-size: 22px !important; }
+
+.size-23 {
+  font-size: 23px !important; }
+
+.size-24 {
+  font-size: 24px !important; }
+
+.size-25 {
+  font-size: 25px !important; }
+
+.size-26 {
+  font-size: 26px !important; }
+
+.size-27 {
+  font-size: 27px !important; }
+
+.size-28 {
+  font-size: 28px !important; }
+
+.size-29 {
+  font-size: 29px !important; }
+
+.size-30 {
+  font-size: 30px !important; }
+
+.size-31 {
+  font-size: 31px !important; }
+
+.size-32 {
+  font-size: 32px !important; }
+
+.size-33 {
+  font-size: 33px !important; }
+
+.size-34 {
+  font-size: 34px !important; }
+
+.size-35 {
+  font-size: 35px !important; }
+
+.size-36 {
+  font-size: 36px !important; }
+
+.size-37 {
+  font-size: 37px !important; }
+
+.size-38 {
+  font-size: 38px !important; }
+
+.size-39 {
+  font-size: 39px !important; }
+
+.size-40 {
+  font-size: 40px !important; }
+
+.size-41 {
+  font-size: 41px !important; }
+
+.size-42 {
+  font-size: 42px !important; }
+
+.size-43 {
+  font-size: 43px !important; }
+
+.size-44 {
+  font-size: 44px !important; }
+
+.size-45 {
+  font-size: 45px !important; }
+
+.size-46 {
+  font-size: 46px !important; }
+
+.size-47 {
+  font-size: 47px !important; }
+
+.size-48 {
+  font-size: 48px !important; }
+
+.size-49 {
+  font-size: 49px !important; }
+
+.size-50 {
+  font-size: 50px !important; }
+
+.size-51 {
+  font-size: 51px !important; }
+
+.size-52 {
+  font-size: 52px !important; }
+
+.size-53 {
+  font-size: 53px !important; }
+
+.size-54 {
+  font-size: 54px !important; }
+
+.size-55 {
+  font-size: 55px !important; }
+
+.size-56 {
+  font-size: 56px !important; }
+
+.size-57 {
+  font-size: 57px !important; }
+
+.size-58 {
+  font-size: 58px !important; }
+
+.size-59 {
+  font-size: 59px !important; }
+
+.size-60 {
+  font-size: 60px !important; }
+
+.size-61 {
+  font-size: 61px !important; }
+
+.size-62 {
+  font-size: 62px !important; }
+
+.size-63 {
+  font-size: 63px !important; }
+
+.size-64 {
+  font-size: 64px !important; }
+
+.size-65 {
+  font-size: 65px !important; }
+
+.size-66 {
+  font-size: 66px !important; }
+
+.size-67 {
+  font-size: 67px !important; }
+
+.size-68 {
+  font-size: 68px !important; }
+
+.size-69 {
+  font-size: 69px !important; }
+
+.size-70 {
+  font-size: 70px !important; }
+
+.size-71 {
+  font-size: 71px !important; }
+
+.size-72 {
+  font-size: 72px !important; }
+
+.size-73 {
+  font-size: 73px !important; }
+
+.size-74 {
+  font-size: 74px !important; }
+
+.size-75 {
+  font-size: 75px !important; }
+
+.size-76 {
+  font-size: 76px !important; }
+
+.size-77 {
+  font-size: 77px !important; }
+
+.size-78 {
+  font-size: 78px !important; }
+
+.size-79 {
+  font-size: 79px !important; }
+
+.size-80 {
+  font-size: 80px !important; }
+
+.size-81 {
+  font-size: 81px !important; }
+
+.size-82 {
+  font-size: 82px !important; }
+
+.size-83 {
+  font-size: 83px !important; }
+
+.size-84 {
+  font-size: 84px !important; }
+
+.size-85 {
+  font-size: 85px !important; }
+
+.size-86 {
+  font-size: 86px !important; }
+
+.size-87 {
+  font-size: 87px !important; }
+
+.size-88 {
+  font-size: 88px !important; }
+
+.size-89 {
+  font-size: 89px !important; }
+
+.size-90 {
+  font-size: 90px !important; }
+
+.size-91 {
+  font-size: 91px !important; }
+
+.size-92 {
+  font-size: 92px !important; }
+
+.size-93 {
+  font-size: 93px !important; }
+
+.size-94 {
+  font-size: 94px !important; }
+
+.size-95 {
+  font-size: 95px !important; }
+
+.size-96 {
+  font-size: 96px !important; }
+
+.size-97 {
+  font-size: 97px !important; }
+
+.size-98 {
+  font-size: 98px !important; }
+
+.size-99 {
+  font-size: 99px !important; }
+
+.size-100 {
+  font-size: 100px !important; }
+
+a:hover {
+  text-decoration: none; }
+
+.box-shape {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden; }
+
+.border-radius-8 {
+  border-radius: 8px; }
+
+iframe {
+  height: inherit; }

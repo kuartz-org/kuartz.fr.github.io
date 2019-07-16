@@ -9,7 +9,7 @@ SassC::SyntaxError: Error: Undefined variable: "$primary".
 
 Backtrace:
 /home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/components/_navbar.scss:20
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sassc-2.0.0/lib/sassc/engine.rb:49:in `render'
+/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sassc-2.0.1/lib/sassc/engine.rb:49:in `render'
 /home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
 /home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/file_renderer.rb:79:in `render'

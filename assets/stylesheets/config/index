@@ -1,7 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,800");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800");
 .kuartz-blue {
-  color: #221C34; }
+  color: #221c34; }
+  .kuartz-blue-bg {
+    background-color: #221c34; }
+
+.kuartz-pink {
+  color: #d60d3d; }
+  .kuartz-pink-bg {
+    background-color: #d60d3d; }
+
+.white {
+  color: white; }
+  .white-bg {
+    background-color: white; }
 
 .invalid-feedback {
   display: none;

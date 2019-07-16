@@ -1,15 +1,15 @@
 /*
 SassC::SyntaxError: Error: Undefined variable: "$family-title".
-        on line 4 of source/assets/stylesheets/pages/_main.scss
+        on line 3 of source/assets/stylesheets/pages/_main.scss
         from line 1 of source/assets/stylesheets/pages/index.scss
->>       font-family: $family-title;
+>>     font-family: $family-title;
 
-   -------------------^
+   -----------------^
 
 
 Backtrace:
-/home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/pages/_main.scss:4
-/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sassc-2.0.0/lib/sassc/engine.rb:49:in `render'
+/home/guillaume/pro/apps/kuartz-org/kuartz.fr.github.io/source/assets/stylesheets/pages/_main.scss:3
+/home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sassc-2.0.1/lib/sassc/engine.rb:49:in `render'
 /home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
 /home/guillaume/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/middleman-core-4.2.1/lib/middleman-core/file_renderer.rb:79:in `render'
@@ -101,4 +101,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "SassC::SyntaxError: Error: Undefined variable: \"$family-title\".\A         on line 4 of source/assets/stylesheets/pages/_main.scss\A         from line 1 of source/assets/stylesheets/pages/index.scss\A >>       font-family: $family-title;\A \A    -------------------^\A "; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$family-title\".\A         on line 3 of source/assets/stylesheets/pages/_main.scss\A         from line 1 of source/assets/stylesheets/pages/index.scss\A >>     font-family: $family-title;\A \A    -----------------^\A "; }
