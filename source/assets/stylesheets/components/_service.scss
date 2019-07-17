@@ -77,6 +77,12 @@ $service-width: 512px;
     color: white;
   }
 
+  &:visited {
+    p {
+      color: darken(white, 25%);
+    }
+  }
+
   .image-wrapper {
     display: flex;
     justify-content: center;
@@ -154,7 +160,7 @@ $service-width: 512px;
     }
     
     p {
-      line-height: 1.3rem;
+      line-height: 1.6rem;
       margin-left: 16px;
     }
   }
