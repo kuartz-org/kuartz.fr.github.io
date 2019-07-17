@@ -1,11 +1,25 @@
 section#companies-section.section
   .container
     br
-    h1.section-title.title.is-2.has-text-centered = title
+    h1.section-title.title.is-2.has-text-centered = service.label
     .kuartz-underline-title
 
     #service-details
-      = partial slug
+      div
+        .service-values-card
+          h2.title = service.title
+          ul.service-values
+            - service.benefits.each do |value|
+              li.service-value
+                i.far.fa-check-circle>
+                p = value
+
+        .illustration
+          .image = image_tag "services/#{service.slug}.svg"
+
+      figure.image
+        = image_tag "services/#{service.slug}-demo.svg", alt: service.demo_image_alt, title: service.demo_image_title
+        figcaption = service.demo_caption
 
 section#companies-section.section.section.has-background-primary
   .container
@@ -13,9 +27,9 @@ section#companies-section.section.section.has-background-primary
     .kuartz-underline-title-inverted
 
     #other-services
-      - data.services.each do |service|
-        - next if service.slug == slug
-        = link_to "/services/#{service.slug}", class: 'other-service' do
+      - data.services.each do |other_service|
+        - next if other_service.slug == service.slug
+        = link_to "/services/#{other_service.slug}", class: 'other-service' do
           .image-wrapper
-            .image = image_tag "services/#{service.image}.svg"
-          p = service.label
+            .image = image_tag "services/#{other_service.slug}.svg"
+          p = other_service.label

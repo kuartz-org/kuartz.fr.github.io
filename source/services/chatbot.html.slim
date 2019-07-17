@@ -1,1 +1,1 @@
-= partial 'service_layout', locals: { title: 'Chabot', slug: 'chatbot' }
+= partial 'service_layout', locals: { service: data.services.find { |service| service.slug == 'chatbot' }}

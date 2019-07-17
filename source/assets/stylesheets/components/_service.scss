@@ -113,17 +113,25 @@ $service-width: 512px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 
 
   figure.image {
-    max-width: 336px;
+    max-width: 512px;
+
     img {
       max-width: 256px;
       margin: 0 auto 32px auto;
     }
 
+    img.wide {
+      max-width: 512px;
+    }
+
     figcaption {
+      max-width: 336px;
       text-align: center;
+      margin: 0 auto;
     }
   }
 

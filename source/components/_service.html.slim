@@ -2,7 +2,7 @@
   = link_to "services/#{service.slug}" do
     .label = service.label
     h5.title.is-5 = service.title
-    .image = image_tag "services/#{service.image}.svg"
+    .image = image_tag "services/#{service.slug}.svg"
     .content
       = service.content
       strong =< service.brand
