@@ -1,0 +1,20 @@
+section#companies-section.section
+  .container
+    h1.section-title.title.is-2.has-text-centered = title
+    .kuartz-underline-title
+
+    #service-details
+      = partial slug
+
+section#companies-section.section.section.has-background-primary
+  .container
+    h2.section-title.title.is-2.has-text-white.has-text-centered Découvrir nos autres services
+    .kuartz-underline-title-inverted
+
+    #other-services
+      - data.services.each do |service|
+        - next if service.slug == slug
+        = link_to "/services/#{service.slug}", class: 'other-service' do
+          .image-wrapper
+            .image = image_tag "services/#{service.image}.svg"
+          p = service.label

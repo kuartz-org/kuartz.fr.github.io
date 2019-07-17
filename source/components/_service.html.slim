@@ -1,5 +1,5 @@
 .service
-  = link_to 'mailto:contact@kuartz.fr' do
+  = link_to "services/#{service.slug}" do
     .label = service.label
     h5.title.is-5 = service.title
     .image = image_tag "services/#{service.image}.svg"

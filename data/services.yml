@@ -4,6 +4,7 @@
   brand:   SFR
   content: Découvrir notre chatbot Messenger pour
   image:   chatbot
+  slug:    chatbot
 
 -
   label:   Scraping
@@ -11,6 +12,7 @@
   brand:   Kaptalia Monitoring
   content: Découvrir notre expertise au service de 
   image:   scraping
+  slug:    scraping
 
 -
   label:   Progressive Web App
@@ -18,6 +20,7 @@
   brand:   Sécurité Routière
   content: Découvrir notre application PWA pour la
   image:   pwa
+  slug:    progressive-web-app
 
 -
   label:   Application web
@@ -25,6 +28,7 @@
   brand:   Seazon
   content: Découvrir notre application de gestion et commandes de plats
   image:   web-app
+  slug:    application-web
 
 -
   label:   Process back-end
@@ -32,6 +36,7 @@
   brand:   Livetrend
   content: Décrouvir notre logiciel d’analyse des tendances mode pour
   image:   back-end
+  slug:    process-back-end
 
 -
   label:   Données dynamiques
@@ -39,3 +44,4 @@
   brand:   Société Générale
   content: Découvrir notre plateforme d’analyse de Start-ups pour la
   image:   data-base
+  slug:    donnees-dynamiques
