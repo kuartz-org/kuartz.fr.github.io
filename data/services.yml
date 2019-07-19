@@ -1,11 +1,11 @@
 -
-  label:   Chatbot
-  slug:    chatbot
-  title:   Communiquez facilement avec vos clients
-  brand:   SFR
-  content: Découvrir notre chatbot Messenger pour
-  demo_caption: Création d'un chatbot Messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints.
-  demo_image_alt: Exemple de chatbot Messenger pour permettre le suivi des coureurs du Grand Raid 2018
+  label:            Chatbot
+  slug:             chatbot
+  title:            Communiquez facilement avec vos clients
+  brand:            SFR
+  content:          Découvrir notre chatbot Messenger pour
+  demo_caption:     Création d'un chatbot Messenger pour permettre le suivi des coureurs du Grand Raid 2018 avec l'envoi de notifications automatiquement lors des passages de checkpoints.
+  demo_image_alt:   Exemple de chatbot Messenger pour permettre le suivi des coureurs du Grand Raid 2018
   demo_image_title: Chatbot Messenger Grand Raid 2018
   benefits:
     - Augmentez vos ventes avec des campagnes SMS / Messenger efficaces
@@ -15,11 +15,11 @@
 
 
 -
-  label:   Scraping
-  slug:    scraping
-  title:   Récupérer des données publiques rapidement
-  brand:   Kaptalia Monitoring
-  content: Découvrir notre expertise au service de 
+  label:            Scraping
+  slug:             scraping
+  title:            Récupérer des données publiques rapidement
+  brand:            Kaptalia Monitoring
+  content:          Découvrir notre expertise au service de
   demo_caption: 
   demo_image_alt: 
   demo_image_title: 
@@ -27,12 +27,12 @@
     - 
 
 -
-  label:   Progressive Web App
-  slug:    progressive-web-app
-  title:   Une application web adaptée aux mobiles
-  brand:   Sécurité Routière
-  content: Découvrir notre application PWA pour la
-  demo_caption: Application adaptée aux mobiles pour la mise en relation de festivaliers pour un retour en voiture en toute sécurité.
+  label:            Progressive Web App
+  slug:             progressive-web-app
+  title:            Une application web adaptée aux mobiles
+  brand:            Sécurité Routière
+  content:          Découvrir notre application PWA pour la
+  demo_caption:     Application adaptée aux mobiles pour la mise en relation de festivaliers pour un retour en voiture en toute sécurité.
   demo_image_alt: 
   demo_image_title: 
   benefits:
@@ -42,23 +42,23 @@
     - Fonctionne de manière fiable, quelles que soient les conditions du réseau
 
 -
-  label:   Application web
-  slug:    application-web
-  title:   Un outil sur mesure pour vos besoins métier
-  brand:   Seazon
-  content: Découvrir notre application de gestion et commandes de plats
-  demo_caption: Plateforme web pour permettant la gestion et la commande de plats cuisinés Seazon.
+  label:            Application web
+  slug:             application-web
+  title:            Un outil sur mesure pour vos besoins métier
+  brand:            Seazon
+  content:          Découvrir notre application de gestion et commandes de plats
+  demo_caption:     Plateforme web pour permettant la gestion et la commande de plats cuisinés Seazon.
   demo_image_alt: 
   demo_image_title: 
   benefits:
     - 
 
 -
-  label:   Process back-end
-  slug:    process-back-end
-  title:   Des processus intelligents sur mesure
-  brand:   Livetrend
-  content: Décrouvir notre logiciel d’analyse des tendances mode pour
+  label:            Process back-end
+  slug:             process-back-end
+  title:            Des processus intelligents sur mesure
+  brand:            Livetrend
+  content:          Décrouvir notre logiciel d’analyse des tendances mode pour
   demo_caption: 
   demo_image_alt: 
   demo_image_title: 
@@ -66,11 +66,11 @@
     - 
 
 -
-  label:   Données dynamiques
-  slug:    donnees-dynamiques
-  title:   Gestion et maitrise des données métiers
-  brand:   Société Générale
-  content: Découvrir notre plateforme d’analyse de Start-ups pour la
+  label:            Données dynamiques
+  slug:             donnees-dynamiques
+  title:            Gestion et maitrise des données métiers
+  brand:            Société Générale
+  content:          Découvrir notre plateforme d’analyse de Start-ups pour la
   demo_caption: 
   demo_image_alt: 
   demo_image_title: 
