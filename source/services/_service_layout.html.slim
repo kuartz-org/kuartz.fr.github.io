@@ -18,7 +18,11 @@ section#companies-section.section
           .image = image_tag "services/#{service.slug}.svg"
 
       figure.image
-        = image_tag "services/#{service.slug}-demo.svg", alt: service.demo_image_alt, title: service.demo_image_title
+        = image_tag "services/#{service.slug}-demo.svg",
+                    alt: service.demo_image_alt,
+                    title: service.demo_image_title,
+                    class: ('wide' if ['scraping', 'application-web', 'donnees-dynamiques', 'process-back-end'].include? service.slug)
+
         figcaption = service.demo_caption
 
 section#companies-section.section.section.has-background-primary

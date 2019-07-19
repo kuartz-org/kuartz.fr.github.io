@@ -20,12 +20,13 @@
   title:            Récupérer des données publiques rapidement
   brand:            Kaptalia Monitoring
   content:          Découvrir notre expertise au service de
-  demo_caption: 
-  demo_image_alt: 
-  demo_image_title: 
+  demo_caption:     Statistiques de la mission réalisée pour Kaptalia Monitoring
+  demo_image_alt:   2201 hôpitaux, 4403 pages web analysées, 145266 données qualifiées
+  demo_image_title: Kaptalia Monitoring
   benefits:
-    - 
-
+    - Transformer du contenu Web en données exploitables pour votre entreprise
+    - Automatiser des actions marketing (post de Tweet, suivre quelqu'un sur un réseau social)
+    - Outil essentiel pour le Growth Hacking
 -
   label:            Progressive Web App
   slug:             progressive-web-app
@@ -33,8 +34,8 @@
   brand:            Sécurité Routière
   content:          Découvrir notre application PWA pour la
   demo_caption:     Application adaptée aux mobiles pour la mise en relation de festivaliers pour un retour en voiture en toute sécurité.
-  demo_image_alt: 
-  demo_image_title: 
+  demo_image_alt:   Exemple d'application PWA développée pour la Sécurité Routière
+  demo_image_title: trouvetonsam.fr
   benefits:
     - Améliorer votre visibilité en invitant les utilisateurs à ajouter la Progressive Web App à l'écran d'accueil de leur mobile
     - Augmenter l'engagement utilisateur avec les notifications push
@@ -71,8 +72,10 @@
   title:            Gestion et maitrise des données métiers
   brand:            Société Générale
   content:          Découvrir notre plateforme d’analyse de Start-ups pour la
-  demo_caption: 
-  demo_image_alt: 
-  demo_image_title: 
+  demo_caption:     Interface présentant les informations stockées dans une base de données AirTable par la Société Générale
+  demo_image_alt:   Interface présentant les informations stockées dans une base de données AirTable par la Société Générale
+  demo_image_title: ISC-Explorer
   benefits:
-    - 
+    - Gestion des droits sur les données de votre entreprise
+    - Accès ergonomique et sécurisé depuis une interface Web
+    - Données stockées en France
