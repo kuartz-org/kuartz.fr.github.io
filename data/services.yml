@@ -49,10 +49,12 @@
   brand:            Seazon
   content:          Découvrir notre application de gestion et commandes de plats
   demo_caption:     Plateforme web pour permettant la gestion et la commande de plats cuisinés Seazon.
-  demo_image_alt: 
+  demo_image_alt:   Plateforme web pour permettant la gestion et la commande de plats cuisinés Seazon.
   demo_image_title: 
   benefits:
-    - 
+    - Simplifier vos process métiers
+    - Proposez une plateforme sur mesure à vos collaborateurs ou vos clients
+    - Augmenter l'efficacité de votre business à l'aide d'outils sur mesure
 
 -
   label:            Process back-end
@@ -60,11 +62,13 @@
   title:            Des processus intelligents sur mesure
   brand:            Livetrend
   content:          Décrouvir notre logiciel d’analyse des tendances mode pour
-  demo_caption: 
-  demo_image_alt: 
+  demo_caption:     Logiciel d’analyse des tendances mode pour Livetrend
+  demo_image_alt:   Logiciel d’analyse des tendances mode pour Livetrend
   demo_image_title: 
   benefits:
-    - 
+    - Augmenter l'efficacité de votre business à l'aide d'outils sur mesure
+    - Automatisez votre business et vos process métiers pour vous permettre de rester focus sur votre coeur de métier
+    - Faciliter la gestion de votre business à l'aide de briques technologiques spécialement conçus pour votre usage
 
 -
   label:            Données dynamiques
