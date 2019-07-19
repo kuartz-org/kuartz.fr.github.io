@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.kuartz.fr/services</loc>
+  </url>
+  <url>
     <loc>https://www.kuartz.fr/jobs</loc>
   </url>
   <url>
@@ -11,5 +14,23 @@
   </url>
   <url>
     <loc>https://www.kuartz.fr/jobs/job_application</loc>
+  </url>
+  <url>
+    <loc>https://www.kuartz.fr/services/progressive-web-app</loc>
+  </url>
+  <url>
+    <loc>https://www.kuartz.fr/services/chatbot</loc>
+  </url>
+  <url>
+    <loc>https://www.kuartz.fr/services/application-web</loc>
+  </url>
+  <url>
+    <loc>https://www.kuartz.fr/services/donnees-dynamiques</loc>
+  </url>
+  <url>
+    <loc>https://www.kuartz.fr/services/scraping</loc>
+  </url>
+  <url>
+    <loc>https://www.kuartz.fr/services/process-back-end</loc>
   </url>
 </urlset>

@@ -116,9 +116,11 @@ const getActiveNavbarItem = () => {
 }
 
 const setActiveNavbarItem = (activeNavbarItem) => {
-  const navbarItems  = navbar.querySelectorAll('.navbar-menu .navbar-item')
-  navbarItems.forEach(item => item.classList.remove('active'))
-  activeNavbarItem.classList.add('active')
+  if (activeNavbarItem) {
+    const navbarItems  = navbar.querySelectorAll('.navbar-menu .navbar-item')
+    navbarItems.forEach(item => item.classList.remove('active'))
+    activeNavbarItem.classList.add('active')
+  } 
 }
 
 setActiveNavbarItem(getActiveNavbarItem())
