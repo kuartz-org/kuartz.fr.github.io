@@ -1,0 +1,23 @@
+footer
+  .image
+    = image_tag 'kuartzblanc.png'
+
+  .links
+    .category-links
+      h5 À propos
+      ul
+        li = link_to 'Nos services', '/services'
+        li = link_to 'Contactez-nous', 'mailto:contact@kuartz.fr'
+        li = link_to 'Suivez-nous sur Linkedin', 'https://www.linkedin.com/company/kuartz', target: "_blank", rel: "noopener noreferrer" 
+
+    .category-links
+      h5 Jobs
+      ul
+        li = link_to 'Kuartz recrute !', '/jobs'
+        li = link_to 'Candidature spontanée', '/jobs/job_application'
+
+    .category-links
+      h5 Légal
+      ul
+        li = link_to 'Mentions légales', '/mentions-legales'
+        li = link_to 'Cookies 🍪', '/mentions-legales#cookies'
